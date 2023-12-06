@@ -53,6 +53,7 @@
     "@apollo/client": "^3.8.8",
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
+    "@expo/vector-icons": "^13.0.0",
     "@react-native-async-storage/async-storage": "^1.21.0",
     "@react-navigation/native": "^6.1.9",
     "@release-it/conventional-changelog": "^5.0.0",
