@@ -83,7 +83,7 @@
     "release-it": "^15.0.0",
     "styled-components": "^6.1.1",
     "typescript": "^5.0.2",
-    "verity-ui": "github:Quikder/verityUI"
+    "verity-ui": "https://github.com/Quikder/VerityUI"
   },
   "resolutions": {
     "@types/react": "17.0.21"
