@@ -1,4 +1,4 @@
-import { ErrorServer, Loading, useWidth } from "verity-ui";
+import { ErrorServer, Loading, useWidth } from "verity-quik";
 import { useQuery } from "@apollo/client";
 import { FlatList, useWindowDimensions } from "react-native";
 import { MY_DEVICES } from "../../services/graphql/query";

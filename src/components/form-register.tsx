@@ -1,4 +1,4 @@
-import { TextInput } from "verity-ui";
+import { TextInput } from "verity-quik";
 import { t } from "i18next";
 import React from "react";
 import { useForm } from "react-hook-form";

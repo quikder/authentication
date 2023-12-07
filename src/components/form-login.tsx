@@ -1,4 +1,4 @@
-import { Button, TextInput } from "verity-ui";
+import { Button, TextInput } from "verity-quik";
 import { useNavigation } from "@react-navigation/native";
 import { t } from "i18next";
 import React from "react";

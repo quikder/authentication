@@ -1,4 +1,4 @@
-import { TextInput } from "verity-ui";
+import { TextInput } from "verity-quik";
 import { useMutation } from "@apollo/client";
 import { t } from "i18next";
 import { useState } from "react";

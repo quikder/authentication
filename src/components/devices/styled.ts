@@ -1,4 +1,4 @@
-import { useWidth } from "verity-ui";
+import { useWidth } from "verity-quik";
 import { Text } from "react-native-paper";
 import styled from "styled-components/native";
 

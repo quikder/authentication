@@ -1,4 +1,4 @@
-import { Button, CodeInput, useWidth } from "verity-ui";
+import { Button, CodeInput, useWidth } from "verity-quik";
 import { t } from "i18next";
 import React, { useState } from "react";
 import { useWindowDimensions } from "react-native";

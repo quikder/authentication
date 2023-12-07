@@ -1,4 +1,4 @@
-import { useWidth } from "verity-ui";
+import { useWidth } from "verity-quik";
 import { Image } from "expo-image";
 import styled from "styled-components/native";
 

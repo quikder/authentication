@@ -1,4 +1,4 @@
-import { Loading } from "verity-ui";
+import { Loading } from "verity-quik";
 import React, {
 	useContext,
 	useEffect,

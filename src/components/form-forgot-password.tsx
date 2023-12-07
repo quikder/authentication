@@ -1,4 +1,4 @@
-import { Button, Layout, TextInput, ToastUi } from "verity-ui";
+import { Button, Layout, TextInput, ToastUi } from "verity-quik";
 import { useMutation } from "@apollo/client";
 import { useNavigation } from "@react-navigation/native";
 import { t } from "i18next";
