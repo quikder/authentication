@@ -9,8 +9,9 @@ import { setContext } from "@apollo/client/link/context";
 import { createUploadLink } from "apollo-upload-client";
 import React from "react";
 import { useAuth } from "./auth.context";
+import type { PropsComponent } from "../../types";
 
-export const ApolloProvider: React.FC = (props) => {
+export const ApolloProvider: React.FC<PropsComponent> = (props) => {
 	const { accessToken, isUserAuthenticated } = useAuth();
 
 	const link = createUploadLink({

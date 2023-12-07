@@ -19,6 +19,7 @@ import type {
 	BiometricType,
 } from "../../utils/local-authentication";
 import { getAsyncStorage, getEncryptedData } from "../../utils/storage";
+import type { PropsComponent } from "../../types";
 
 const AuthContext = React.createContext<AuthContextInterface>({
 	loading: true,
@@ -45,7 +46,7 @@ export function useAuth() {
 	return value;
 }
 
-export const AuthProvider: React.FC = (props) => {
+export const AuthProvider: React.FC<PropsComponent> = (props) => {
 	//First Loading
 	const [loading, setLoading] = useState<boolean>(true);
 	//User credentials
