@@ -1,15 +1,19 @@
 //@ts-ignore
 import { useMutation } from "@apollo/client";
 import { t } from "i18next";
-import { createContext, useContext } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 import Toast from "react-native-toast-message";
 import { ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "../../constants/keys";
-import type { LoginType, RegisterType } from "../../types";
+import type { LoginType, PropsComponent, RegisterType } from "../../types";
 import { getDeviceInput } from "../../utils/getDeviceInput";
 import { removeEncryptedData, saveEncryptedData } from "../../utils/storage";
-import { LOGIN, LOGIN_BIOMETRIC, REGISTER } from "../graphql/mutation";
+import { LOGIN, LOGIN_BIOMETRIC, LOGOUT, REFRESH_TOKE, REGISTER } from "../graphql/mutation";
 import { useAuth } from "./auth.context";
 import React from 'react';
+import jwtDecode from "jwt-decode";
+import moment from "moment";
+import { Alert } from "react-native";
+import { Loading } from "verity-quik";
 
 export const SessionContext = createContext<SessionProps>({
 	//@ts-ignore
@@ -35,14 +39,50 @@ export function useSession() {
 	return value;
 }
 
-export const SessionProvider: React.FC = (props) => {
+export const SessionProvider: React.FC<PropsComponent> = (props) => {
 	const {
-
+		accessToken,
+		refreshToken,
 		deviceIdentifier,
 		setAccessToken,
 		setRefreshToken,
 		setIsUserAuthenticated,
 	} = useAuth();
+
+	const [isRefreshReady, setIsRefreshReady] = useState<boolean>(false)
+	const [loadin, setLoading] = useState<boolean>(true)
+
+	useEffect(() => {
+		(async () => {
+			if (accessToken) {
+				const decodedToken = jwtDecode(accessToken);
+				//@ts-ignore
+				if (moment(decodedToken.exp * 1000).isBefore(moment())) {
+					handleLogout()
+					Alert.alert(
+						t('auth.session-expired'),
+						t('auth.session-expired-message'),
+						[{ text: t('auth.ok') }],
+					);
+				} else {
+					//@ts-ignore
+					const tokenExpiration = moment(decodedToken.exp * 1000);
+					const now = moment()
+					const timeLeft = moment.duration(tokenExpiration.diff(now));
+					const oneDay = moment.duration(1, 'day');
+
+					if (timeLeft < oneDay) {
+						if (!isRefreshReady) {
+							handleRefreshToken()
+						}
+					}
+
+				}
+			}
+
+			await setLoading(false)
+		})()
+	}, [])
 
 	const saveUserCredentials = (mutationData: MutationData) => {
 		if (mutationData?.success) {
@@ -129,23 +169,54 @@ export const SessionProvider: React.FC = (props) => {
 	};
 
 	//Logout
-	const handleLogout = async (): Promise<void> => {
-		//Access Token
-		setAccessToken(null);
-		removeEncryptedData(ACCESS_TOKEN_KEY);
-		//Refresh Token
-		setRefreshToken(null);
-		removeEncryptedData(REFRESH_TOKEN_KEY);
+	const [logoutAction] = useMutation(LOGOUT, {
+		update(_, { data: { logout } }) {
+			if (logout?.success) {
+				//Access Token
+				setAccessToken(null);
+				removeEncryptedData(ACCESS_TOKEN_KEY);
+				//Refresh Token
+				setRefreshToken(null);
+				removeEncryptedData(REFRESH_TOKEN_KEY);
+				setIsUserAuthenticated(false);
 
-		setIsUserAuthenticated(false);
+			} else {
+				Toast.show({
+					type: 'error',
+					text1: t('error.title'),
+					text2: t('auth.error.logout')
+				})
+			}
+		}
+	})
+	const handleLogout = async (): Promise<void> => {
+		logoutAction({
+			variables: {
+				deviceIdentifier
+			}
+		})
+
 	};
 
-	// if (accessToken) {
-	// 	const decodedToken = jwtDecode(accessToken);
-	// 	console.log(decodedToken);
-	// }
+	//RefreshToken
 
-	// console.log(jwtDecode(`${accessToken}`));
+	const [refresh] = useMutation(REFRESH_TOKE, {
+		update(_, { data: { refreshToken } }) {
+			if (refreshToken?.success) {
+				saveUserCredentials(refreshToken);
+				setIsRefreshReady(true)
+			}
+		}
+	})
+	const handleRefreshToken = () => {
+		refresh({
+			variables: {
+				refreshToken
+			}
+		})
+	}
+
+	if (loadin) return <Loading />
 
 	return (
 		<SessionContext.Provider
@@ -163,6 +234,8 @@ export const SessionProvider: React.FC = (props) => {
 		</SessionContext.Provider>
 	);
 }
+
+
 
 const errorsFind = (error: ErrorsType) => {
 	if (error?.unique_email) {

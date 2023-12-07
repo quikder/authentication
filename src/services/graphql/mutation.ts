@@ -98,3 +98,23 @@ mutation MyMutation($code: String!, $password: String!) {
   }
 }
 `;
+
+export const LOGOUT = gql`
+mutation Logout($deviceIdentifier: String!) {
+  logout(deviceIdentifier: $deviceIdentifier) {
+    success
+    error
+  }
+}
+`;
+
+export const REFRESH_TOKE = gql`
+mutation RefreshToken($refreshToken: String!) {
+  refreshToken(refreshToken: $refreshToken) {
+    success
+    accessToken
+    refreshToken
+    error
+  }
+}
+`;
