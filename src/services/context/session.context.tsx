@@ -246,6 +246,7 @@ const errorsFind = (error: ErrorsType) => {
 	} else if (error?.no_permition) {
 		return "invalid-credentials";
 	}
+	return ''
 };
 
 interface SessionProps {
