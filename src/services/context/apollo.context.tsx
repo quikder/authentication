@@ -2,6 +2,7 @@ import {
 	ApolloClient,
 	ApolloProvider as ApolloProviderDefault,
 	InMemoryCache,
+	split,
 	//@ts-ignore
 } from "@apollo/client";
 //@ts-ignore
@@ -10,13 +11,35 @@ import { createUploadLink } from "apollo-upload-client";
 import React from "react";
 import { useAuth } from "./auth.context";
 import type { PropsComponent } from "../../types";
+import { WebSocketLink } from "@apollo/client/link/ws";
+import { SubscriptionClient } from "subscriptions-transport-ws";
+import { getMainDefinition } from "@apollo/client/utilities";
 
 export const ApolloProvider: React.FC<PropsComponent> = (props) => {
 	const { accessToken, isUserAuthenticated } = useAuth();
+	const cache = new InMemoryCache();
 
 	const link = createUploadLink({
-		uri: `https://${process.env.EXPO_PUBLIC_API_URL}/graphql/`,
+		uri: `http://${process.env.EXPO_PUBLIC_API_URL}/graphql/`,
 	});
+
+	const wsLink = new WebSocketLink(
+		new SubscriptionClient(`ws://${process.env.EXPO_PUBLIC_API_URL}/graphql/`, {
+			reconnect: true,
+		}),
+	);	
+
+	const splitLink = split(
+		({ query }) => {
+			const definition = getMainDefinition(query);
+			return (
+				definition.kind === "OperationDefinition" &&
+				definition.operation === "subscription"
+			);
+		},
+		wsLink,
+		link,
+	);
 
 	//@ts-ignore
 	const authLink = setContext((_, { headers }) => {
@@ -28,11 +51,9 @@ export const ApolloProvider: React.FC<PropsComponent> = (props) => {
 		};
 	});
 
-	const cache = new InMemoryCache();
-
 	const client = new ApolloClient({
 		//@ts-ignore
-		link: authLink.concat(link),
+		link: authLink.concat(splitLink),
 		cache,
 	});
 

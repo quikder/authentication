@@ -2,7 +2,6 @@ import { BiometricItem } from "./components/biometric-item";
 import { BiometricModal } from "./components/biometric-modal";
 import { Devices } from "./components/devices";
 import { FormChangePassword } from "./components/form-change-password";
-import { FormForgotPassword } from "./components/form-forgot-password";
 import { FormLogin } from "./components/form-login";
 import { FormRecoverPassword } from "./components/form-recover-password";
 import { FormRegister } from "./components/form-register";
@@ -30,6 +29,4 @@ export {
   FormChangePassword,
   BiometricItem,
   FormRecoverPassword,
-  FormForgotPassword
 };
-

@@ -1,31 +1,37 @@
 //@ts-ignore
 import { useMutation } from "@apollo/client";
 import { t } from "i18next";
+import jwtDecode from "jwt-decode";
+import moment from "moment";
 import { createContext, useContext, useEffect, useState } from "react";
+import React from "react";
+import { Alert } from "react-native";
 import Toast from "react-native-toast-message";
+import { Loading } from "verity-quik";
 import { ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "../../constants/keys";
 import type { LoginType, PropsComponent, RegisterType } from "../../types";
 import { getDeviceInput } from "../../utils/getDeviceInput";
 import { removeEncryptedData, saveEncryptedData } from "../../utils/storage";
-import { LOGIN, LOGIN_BIOMETRIC, LOGOUT, REFRESH_TOKE, REGISTER } from "../graphql/mutation";
+import {
+	LOGIN,
+	LOGIN_BIOMETRIC,
+	LOGOUT,
+	REFRESH_TOKE,
+	REGISTER,
+} from "../graphql/mutation";
 import { useAuth } from "./auth.context";
-import React from 'react';
-import jwtDecode from "jwt-decode";
-import moment from "moment";
-import { Alert } from "react-native";
-import { Loading } from "verity-quik";
 
 export const SessionContext = createContext<SessionProps>({
 	//@ts-ignore
-	handleRegister: async (formData) => { },
+	handleRegister: async (formData) => {},
 	registerLoading: false,
 	//@ts-ignore
-	handleLogin: async (formData) => { },
+	handleLogin: async (formData) => {},
 	loginLoading: false,
 	//@ts-ignore
-	handleLoginBiometric: async (loginSource) => { },
+	handleLoginBiometric: async (loginSource) => {},
 	loginBiometricLoading: false,
-	handleLogout: async () => { },
+	handleLogout: async () => {},
 });
 
 export function useSession() {
@@ -49,8 +55,8 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 		setIsUserAuthenticated,
 	} = useAuth();
 
-	const [isRefreshReady, setIsRefreshReady] = useState<boolean>(false)
-	const [loadin, setLoading] = useState<boolean>(true)
+	const [isRefreshReady, setIsRefreshReady] = useState<boolean>(false);
+	const [loadin, setLoading] = useState<boolean>(true);
 
 	useEffect(() => {
 		(async () => {
@@ -58,31 +64,30 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 				const decodedToken = jwtDecode(accessToken);
 				//@ts-ignore
 				if (moment(decodedToken.exp * 1000).isBefore(moment())) {
-					handleLogout()
+					handleLogout();
 					Alert.alert(
-						t('auth.session-expired'),
-						t('auth.session-expired-message'),
-						[{ text: t('auth.ok') }],
+						t("auth.session-expired"),
+						t("auth.session-expired-message"),
+						[{ text: t("auth.ok") }],
 					);
 				} else {
 					//@ts-ignore
 					const tokenExpiration = moment(decodedToken.exp * 1000);
-					const now = moment()
+					const now = moment();
 					const timeLeft = moment.duration(tokenExpiration.diff(now));
-					const oneDay = moment.duration(1, 'day');
+					const oneDay = moment.duration(1, "day");
 
 					if (timeLeft < oneDay) {
 						if (!isRefreshReady) {
-							handleRefreshToken()
+							handleRefreshToken();
 						}
 					}
-
 				}
 			}
 
-			await setLoading(false)
-		})()
-	}, [])
+			await setLoading(false);
+		})();
+	}, []);
 
 	const saveUserCredentials = (mutationData: MutationData) => {
 		if (mutationData?.success) {
@@ -179,23 +184,21 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 				setRefreshToken(null);
 				removeEncryptedData(REFRESH_TOKEN_KEY);
 				setIsUserAuthenticated(false);
-
 			} else {
 				Toast.show({
-					type: 'error',
-					text1: t('error.title'),
-					text2: t('auth.error.logout')
-				})
+					type: "error",
+					text1: t("error.title"),
+					text2: t("auth.error.logout"),
+				});
 			}
-		}
-	})
+		},
+	});
 	const handleLogout = async (): Promise<void> => {
 		logoutAction({
 			variables: {
-				deviceIdentifier
-			}
-		})
-
+				deviceIdentifier,
+			},
+		});
 	};
 
 	//RefreshToken
@@ -204,19 +207,19 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 		update(_, { data: { refreshToken } }) {
 			if (refreshToken?.success) {
 				saveUserCredentials(refreshToken);
-				setIsRefreshReady(true)
+				setIsRefreshReady(true);
 			}
-		}
-	})
+		},
+	});
 	const handleRefreshToken = () => {
 		refresh({
 			variables: {
-				refreshToken
-			}
-		})
-	}
+				refreshToken,
+			},
+		});
+	};
 
-	if (loadin) return <Loading />
+	if (loadin) return <Loading />;
 
 	return (
 		<SessionContext.Provider
@@ -233,17 +236,16 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 			{props.children}
 		</SessionContext.Provider>
 	);
-}
-
-
+};
 
 const errorsFind = (error: ErrorsType) => {
 	if (error?.unique_email) {
 		return "unique-email";
 	} else if (error?.invalid_credentials) {
 		return "invalid-credentials";
+	} else if (error?.no_permition) {
+		return "invalid-credentials";
 	}
-	return ''
 };
 
 interface SessionProps {
@@ -266,4 +268,5 @@ interface MutationData {
 interface ErrorsType {
 	unique_email: boolean;
 	invalid_credentials: boolean;
+	no_permition: boolean;
 }
