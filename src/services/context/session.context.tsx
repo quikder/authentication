@@ -238,6 +238,7 @@ export const SessionProvider: React.FC<PropsComponent> = (props) => {
 	);
 };
 
+//@ts-ignore
 const errorsFind = (error: ErrorsType) => {
 	if (error?.unique_email) {
 		return "unique-email";

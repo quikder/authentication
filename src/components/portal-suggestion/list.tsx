@@ -8,7 +8,7 @@ import { ALL_SUGGESTIONS } from "../../services/graphql/query";
 import { Item } from "./item";
 
 export const List: React.FC<{ loginSource: string }> = ({ loginSource }) => {
-	const { data, loading, error, refetch } = useQuery(ALL_SUGGESTIONS, {
+	const { data, loading, refetch } = useQuery(ALL_SUGGESTIONS, {
 		fetchPolicy: "cache-first",
 		nextFetchPolicy: "cache-and-network",
 		variables: {
