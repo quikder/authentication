@@ -2,9 +2,9 @@ import { Button, Layout, TextInput, ToastUi } from "verity-quik";
 import { useMutation } from "@apollo/client";
 import { useNavigation } from "@react-navigation/native";
 import { t } from "i18next";
+import React from "react";
 import { useForm } from "react-hook-form";
 import Toast from "react-native-toast-message";
-import React from "react";
 import { FORGOT_PASSWORD } from "../services/graphql/mutation";
 
 export const FormForgotPassword = () => {

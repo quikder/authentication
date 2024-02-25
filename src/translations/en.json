@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activate",
+        "active": "Active",
+        "add": "Add",
+        "block": "Block {{modelName}}",
+        "block-info": "A code has been sent to your email, enter the code to block the device",
+        "blocked": "Blocked",
+        "brand": "Brand",
+        "change-password": "Change password",
+        "code": "Code",
+        "confirm-password": "Confirm password",
+        "current-password": "Current password",
+        "description": "Description",
+        "device-model": "Model",
+        "email": "Email",
+        "empty": {
+            "suggestion": "What features would you like us to implement?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Log in with Face ID",
+                "face-recognition": "Log in with facial recognition",
+                "fingerprint": "Log in with fingerprint recognition",
+                "iris": "Log in with iris recognition",
+                "touch-id": "Log in with Touch ID"
+            },
+            "current-password": "Incorrect password",
+            "description": "Please explain what the functionality you would like us to implement consists of",
+            "forgot-password": "This email is not registered",
+            "invalid-credentials": "Incorrect email or password",
+            "lock-code": "Incorrect code",
+            "logout": "An error occurred, check your connection or try again later",
+            "recover-password": "Invalid code",
+            "required": {
+                "confirm-password": "You must confirm the password",
+                "current-password": "Current password is required",
+                "email": "Email is required",
+                "full-name": "Name is required",
+                "password": "Password is required"
+            },
+            "same-password": "Password cannot be the same as the previous one",
+            "title": "Title is required",
+            "unique-email": "This email already exists",
+            "valid": {
+                "confirm-password": "Passwords do not match",
+                "email": "Enter a valid email",
+                "name": "Enter first and last name"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Facial recognition",
+        "fingerprint": "Fingerprint",
+        "forgot-password": "Forgot your password?",
+        "full-name": "Full name",
+        "ip-address": "IP Address",
+        "logged-out": "Logged out",
+        "login": "Log in",
+        "login-biometric": "Log in with your biometric data",
+        "login-register": "Register or log in to your account",
+        "login-social": "Or log in with",
+        "logout-device": "Log out",
+        "make-block": "Block",
+        "new-password": "New password",
+        "ok": "OK",
+        "password": "Password",
+        "permission": {
+            "description": {
+                "face-id": "Do you want to log in with Face ID next time?"
+            },
+            "title": {
+                "face-id": "Enable Face ID"
+            }
+        },
+        "recover-password": "Recover password",
+        "register": "Register",
+        "register-social": "Or register with",
+        "see-less": "See less",
+        "see-more": "See more",
+        "send": "Send",
+        "session-expired": "Session expired",
+        "session-expired-message": "The session has expired, please log in again",
+        "skip": "Skip",
+        "success": {
+            "change-password": "Password changed successfully",
+            "forgot-password": "A code has been sent to your email to reset the password",
+            "lock-code": "The {{modelName}} device was successfully blocked",
+            "recover-password": "Password reset successfully",
+            "suggestion": "Your suggestion was successfully added, we will consider it for future updates"
+        },
+        "suggestion-portal": "Suggestion portal",
+        "suggestion-portal-description": "Tell us what features you would like us to implement",
+        "title": "Title",
+        "touch-id": "Touch ID",
+        "vote": "Vote",
+        "voted": "Voted",
+        "votes": "Votes",
+        "welcome": "Welcome!"
+    }
+}

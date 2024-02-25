@@ -1,3 +1,4 @@
+import { Loading } from "verity-quik";
 //@ts-ignore
 import { useMutation } from "@apollo/client";
 import { t } from "i18next";
@@ -7,7 +8,6 @@ import { createContext, useContext, useEffect, useState } from "react";
 import React from "react";
 import { Alert } from "react-native";
 import Toast from "react-native-toast-message";
-import { Loading } from "verity-quik";
 import { ACCESS_TOKEN_KEY, REFRESH_TOKEN_KEY } from "../../constants/keys";
 import type { LoginType, PropsComponent, RegisterType } from "../../types";
 import { getDeviceInput } from "../../utils/getDeviceInput";
@@ -246,7 +246,6 @@ const errorsFind = (error: ErrorsType) => {
 	} else if (error?.no_permition) {
 		return "invalid-credentials";
 	}
-	return ''
 };
 
 interface SessionProps {

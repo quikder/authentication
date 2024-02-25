@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "アクティベート",
+        "active": "アクティブ",
+        "add": "追加",
+        "block": "{{modelName}}をブロック",
+        "block-info": "コードがメールに送信されました。デバイスをブロックするには、コードを入力してください。",
+        "blocked": "ブロック済み",
+        "brand": "ブランド",
+        "change-password": "パスワードの変更",
+        "code": "コード",
+        "confirm-password": "パスワードの確認",
+        "current-password": "現在のパスワード",
+        "description": "説明",
+        "device-model": "デバイスモデル",
+        "email": "メール",
+        "empty": {
+            "suggestion": "実装してほしい機能は何ですか？"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Face IDでログイン",
+                "face-recognition": "顔認識でログイン",
+                "fingerprint": "指紋認証でログイン",
+                "iris": "虹彩認証でログイン",
+                "touch-id": "Touch IDでログイン"
+            },
+            "current-password": "パスワードが正しくありません",
+            "description": "実装してほしい機能の内容を説明する必要があります",
+            "forgot-password": "このメールは登録されていません",
+            "invalid-credentials": "無効なメールアドレスまたはパスワード",
+            "lock-code": "無効なコード",
+            "logout": "エラーが発生しました。接続を確認するか、後でもう一度試してください",
+            "recover-password": "無効なコード",
+            "required": {
+                "confirm-password": "パスワードを確認する必要があります",
+                "current-password": "現在のパスワードが必要です",
+                "email": "メールアドレスは必須です",
+                "full-name": "名前は必須です",
+                "password": "パスワードは必須です"
+            },
+            "same-password": "パスワードは前回と同じであってはいけません",
+            "title": "タイトルが必要です",
+            "unique-email": "このメールアドレスは既に存在しています",
+            "valid": {
+                "confirm-password": "パスワードが一致しません",
+                "email": "有効なメールアドレスを入力してください",
+                "name": "名前を入力してください"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "顔認識",
+        "fingerprint": "指紋認証",
+        "forgot-password": "パスワードを忘れましたか？",
+        "full-name": "フルネーム",
+        "ip-address": "IPアドレス",
+        "logged-out": "ログアウトしました",
+        "login": "ログイン",
+        "login-biometric": "バイオメトリクスデータでログイン",
+        "login-register": "アカウントにサインアップまたはログイン",
+        "login-social": "または以下でログイン",
+        "logout-device": "デバイスからログアウト",
+        "make-block": "ブロックする",
+        "new-password": "新しいパスワード",
+        "ok": "OK",
+        "password": "パスワード",
+        "permission": {
+            "description": {
+                "face-id": "次回Face IDでログインしますか？"
+            },
+            "title": {
+                "face-id": "Face IDを有効にする"
+            }
+        },
+        "recover-password": "パスワードの回復",
+        "register": "登録",
+        "register-social": "または以下で登録",
+        "see-less": "表示を減らす",
+        "see-more": "表示を増やす",
+        "send": "送信",
+        "session-expired": "セッションが終了しました",
+        "session-expired-message": "セッションが切れました。再度ログインしてください",
+        "skip": "スキップ",
+        "success": {
+            "change-password": "パスワードが正常に変更されました",
+            "forgot-password": "パスワードのリセット用のコードがメールに送信されました",
+            "lock-code": "{{modelName}} デバイスが正常にブロックされました",
+            "recover-password": "パスワードが正常に回復されました",
+            "suggestion": "提案が正常に追加されました。将来のアップデートに考慮します"
+        },
+        "suggestion-portal": "提案ポータル",
+        "suggestion-portal-description": "実装してほしい機能について教えてください",
+        "title": "タイトル",
+        "touch-id": "Touch ID",
+        "vote": "投票",
+        "voted": "投票済み",
+        "votes": "投票数",
+        "welcome": "ようこそ！"
+    }
+}

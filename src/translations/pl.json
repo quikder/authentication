@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktywuj",
+        "active": "Aktywny",
+        "add": "Dodaj",
+        "block": "Zablokuj {{modelName}}",
+        "block-info": "Kod został wysłany na twój adres e-mail. Wprowadź kod, aby zablokować urządzenie",
+        "blocked": "Zablokowany",
+        "brand": "Marka",
+        "change-password": "Zmień hasło",
+        "code": "Kod",
+        "confirm-password": "Potwierdź hasło",
+        "current-password": "Obecne hasło",
+        "description": "Opis",
+        "device-model": "Model urządzenia",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Jakie funkcje chciałbyś, abyśmy zaimplementowali?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Zaloguj się za pomocą Face ID",
+                "face-recognition": "Zaloguj się za pomocą rozpoznawania twarzy",
+                "fingerprint": "Zaloguj się za pomocą rozpoznawania odcisków palców",
+                "iris": "Zaloguj się za pomocą rozpoznawania tęczówki",
+                "touch-id": "Zaloguj się za pomocą Touch ID"
+            },
+            "current-password": "Błędne hasło",
+            "description": "Musisz wyjaśnić, na czym polega funkcjonalność, którą chciałbyś, abyśmy zaimplementowali",
+            "forgot-password": "Ten e-mail nie jest zarejestrowany",
+            "invalid-credentials": "Błędny adres e-mail lub hasło",
+            "lock-code": "Nieprawidłowy kod",
+            "logout": "Wystąpił błąd. Sprawdź swoje połączenie lub spróbuj ponownie później",
+            "recover-password": "Nieprawidłowy kod",
+            "required": {
+                "confirm-password": "Musisz potwierdzić hasło",
+                "current-password": "Wymagane jest obecne hasło",
+                "email": "Adres e-mail jest wymagany",
+                "full-name": "Imię i nazwisko są wymagane",
+                "password": "Hasło jest wymagane"
+            },
+            "same-password": "Hasło nie może być takie samo jak poprzednie",
+            "title": "Tytuł jest wymagany",
+            "unique-email": "Ten adres e-mail już istnieje",
+            "valid": {
+                "confirm-password": "Hasła nie są zgodne",
+                "email": "Wprowadź prawidłowy adres e-mail",
+                "name": "Wprowadź imię i nazwisko"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Rozpoznawanie twarzy",
+        "fingerprint": "Odcisk palca",
+        "forgot-password": "Zapomniałeś hasła?",
+        "full-name": "Imię i nazwisko",
+        "ip-address": "Adres IP",
+        "logged-out": "Wylogowany",
+        "login": "Zaloguj się",
+        "login-biometric": "Zaloguj się za pomocą danych biometrycznych",
+        "login-register": "Zarejestruj się lub zaloguj się na swoje konto",
+        "login-social": "Albo zaloguj się za pomocą",
+        "logout-device": "Wyloguj z urządzenia",
+        "make-block": "Zablokuj",
+        "new-password": "Nowe hasło",
+        "ok": "OK",
+        "password": "Hasło",
+        "permission": {
+            "description": {
+                "face-id": "Chcesz zalogować się za pomocą Face ID następnym razem?"
+            },
+            "title": {
+                "face-id": "Włącz Face ID"
+            }
+        },
+        "recover-password": "Odzyskaj hasło",
+        "register": "Zarejestruj się",
+        "register-social": "Albo zarejestruj się za pomocą",
+        "see-less": "Zobacz mniej",
+        "see-more": "Zobacz więcej",
+        "send": "Wyślij",
+        "session-expired": "Sesja wygasła",
+        "session-expired-message": "Sesja wygasła. Zaloguj się ponownie",
+        "skip": "Pomiń",
+        "success": {
+            "change-password": "Hasło zostało pomyślnie zmienione",
+            "forgot-password": "Na twój adres e-mail został wysłany kod do resetowania hasła",
+            "lock-code": "Urządzenie {{modelName}} zostało pomyślnie zablokowane",
+            "recover-password": "Hasło zostało pomyślnie odzyskane",
+            "suggestion": "Twoja sugestia została pomyślnie dodana. Będziemy ją rozważać podczas przyszłych aktualizacji"
+        },
+        "suggestion-portal": "Portal sugestii",
+        "suggestion-portal-description": "Powiedz nam, jakie funkcje chciałbyś, abyśmy zaimplementowali",
+        "title": "Tytuł",
+        "touch-id": "Touch ID",
+        "vote": "Głosuj",
+        "voted": "Zagłosowano",
+        "votes": "Głosy",
+        "welcome": "Witaj!"
+    }
+}

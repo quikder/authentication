@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktivoi",
+        "active": "Aktiivinen",
+        "add": "Lisää",
+        "block": "Estä {{modelName}}",
+        "block-info": "Sinulle on lähetetty koodi sähköpostiisi. Syötä koodi estääksesi laitteen.",
+        "blocked": "Estetty",
+        "brand": "Merkki",
+        "change-password": "Vaihda salasana",
+        "code": "Koodi",
+        "confirm-password": "Vahvista salasana",
+        "current-password": "Nykyinen salasana",
+        "description": "Kuvaus",
+        "device-model": "Laitemalli",
+        "email": "Sähköposti",
+        "empty": {
+            "suggestion": "Mitä toimintoja haluaisit meidän toteuttavan?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Kirjaudu sisään kasvojen tunnistuksella",
+                "face-recognition": "Kirjaudu sisään kasvojentunnistuksella",
+                "fingerprint": "Kirjaudu sisään sormenjälkitunnistuksella",
+                "iris": "Kirjaudu sisään iiristunnistuksella",
+                "touch-id": "Kirjaudu sisään Touch ID:llä"
+            },
+            "current-password": "Väärä salasana",
+            "description": "Sinun on kerrottava, mitä haluaisit meidän toteuttavan tällä toiminnallisuudella",
+            "forgot-password": "Tämä sähköposti ei ole rekisteröity",
+            "invalid-credentials": "Väärä sähköposti tai salasana",
+            "lock-code": "Väärä koodi",
+            "logout": "Tapahtui virhe, tarkista yhteys tai yritä uudelleen myöhemmin",
+            "recover-password": "Virheellinen koodi",
+            "required": {
+                "confirm-password": "Sinun on vahvistettava salasana",
+                "current-password": "Nykyinen salasana on pakollinen",
+                "email": "Sähköposti on pakollinen",
+                "full-name": "Nimi on pakollinen",
+                "password": "Salasana on pakollinen"
+            },
+            "same-password": "Salasana ei voi olla sama kuin edellinen",
+            "title": "Otsikko on pakollinen",
+            "unique-email": "Tämä sähköposti on jo käytössä",
+            "valid": {
+                "confirm-password": "Salasanat eivät täsmää",
+                "email": "Syötä kelvollinen sähköposti",
+                "name": "Syötä etu- ja sukunimi"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Kasvojentunnistus",
+        "fingerprint": "Sormenjälki",
+        "forgot-password": "Unohditko salasanasi?",
+        "full-name": "Koko nimi",
+        "ip-address": "IP-osoite",
+        "logged-out": "Kirjautunut ulos",
+        "login": "Kirjaudu sisään",
+        "login-biometric": "Kirjaudu sisään biometrisillä tiedoillasi",
+        "login-register": "Rekisteröidy tai kirjaudu tilillesi",
+        "login-social": "Tai kirjaudu sisään",
+        "logout-device": "Kirjaudu ulos laitteesta",
+        "make-block": "Estä",
+        "new-password": "Uusi salasana",
+        "ok": "OK",
+        "password": "Salasana",
+        "permission": {
+            "description": {
+                "face-id": "Haluatko kirjautua sisään Face ID:llä seuraavalla kerralla?"
+            },
+            "title": {
+                "face-id": "Ota käyttöön Face ID"
+            }
+        },
+        "recover-password": "Palauta salasana",
+        "register": "Rekisteröidy",
+        "register-social": "Tai rekisteröidy",
+        "see-less": "Näytä vähemmän",
+        "see-more": "Näytä lisää",
+        "send": "Lähetä",
+        "session-expired": "Sessio vanhentunut",
+        "session-expired-message": "Sessio on vanhentunut, kirjaudu sisään uudelleen",
+        "skip": "Ohita",
+        "success": {
+            "change-password": "Salasana on vaihdettu onnistuneesti",
+            "forgot-password": "Koodi on lähetetty sähköpostiisi salasanan palauttamiseksi",
+            "lock-code": "{{modelName}} laite on estetty onnistuneesti",
+            "recover-password": "Salasana on palautettu onnistuneesti",
+            "suggestion": "Ehdotuksesi on lisätty onnistuneesti. Otamme sen huomioon tulevissa päivityksissä"
+        },
+        "suggestion-portal": "Ehdotusportaali",
+        "suggestion-portal-description": "Kerro meille, mitä toimintoja haluaisit meidän toteuttavan",
+        "title": "Otsikko",
+        "touch-id": "Touch ID",
+        "vote": "Äänestä",
+        "voted": "Äänestetty",
+        "votes": "Äänet",
+        "welcome": "Tervetuloa!"
+    }
+}

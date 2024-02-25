@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activar",
+        "active": "Activo",
+        "add": "Añadir",
+        "block": "Bloquear {{modelName}}",
+        "block-info": "Se envió un código a tu correo electrónico, escribe el código para bloquear el dispositivo",
+        "blocked": "Bloqueado",
+        "brand": "Marca",
+        "change-password": "Cambiar contraseña",
+        "code": "Código",
+        "confirm-password": "Confirmar la contraseña",
+        "current-password": "Contraseña actual",
+        "description": "Descripción",
+        "device-model": "Modelo",
+        "email": "Correo electrónico",
+        "empty": {
+            "suggestion": "¿Qué funciones te gustaría que implementáramos?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Iniciar sesión con Face ID",
+                "face-recognition": "Iniciar sesión con reconocimiento facial",
+                "fingerprint": "Iniciar sesión con reconocimiento de huella dactilar",
+                "iris": "Iniciar sesión con reconocimiento de iris",
+                "touch-id": "Iniciar sesión con Touch ID"
+            },
+            "current-password": "Contraseña incorrecta",
+            "description": "Se necesita que expliques en qué consiste la funcionalidad que te gustaría que implementáramos",
+            "forgot-password": "Este correo no está registrado",
+            "invalid-credentials": "Correo o contraseña incorrectos",
+            "lock-code": "Código incorrecto",
+            "logout": "Ocurrió un error, verifica tu conexión o vuelve a intentar en un momento",
+            "recover-password": "Código no válido",
+            "required": {
+                "confirm-password": "Debes confirmar la contraseña",
+                "current-password": "Se requiere la contraseña actual",
+                "email": "El correo electrónico es requerido",
+                "full-name": "El nombre es requerido",
+                "password": "La contraseña es requerida"
+            },
+            "same-password": "La contraseña no puede ser igual a la anterior",
+            "title": "Se requiere el título",
+            "unique-email": "Este correo ya existe",
+            "valid": {
+                "confirm-password": "Las contraseñas no coinciden",
+                "email": "Ingresa un correo electrónico válido",
+                "name": "Ingresa nombre y apellido"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Reconocimiento facial",
+        "fingerprint": "Huella dactilar",
+        "forgot-password": "¿Olvidaste tu contraseña?",
+        "full-name": "Nombre completo",
+        "ip-address": "Dirección IP",
+        "logged-out": "Sesión cerrada",
+        "login": "Iniciar sesión",
+        "login-biometric": "Iniciar sesión con tus datos biométricos",
+        "login-register": "Regístrate o inicia sesión en tu cuenta",
+        "login-social": "O inicia sesión con",
+        "logout-device": "Cerrar sesión",
+        "make-block": "Bloquear",
+        "new-password": "Nueva contraseña",
+        "ok": "OK",
+        "password": "Contraseña",
+        "permission": {
+            "description": {
+                "face-id": "¿Quieres iniciar sesión con Face ID la próxima vez?"
+            },
+            "title": {
+                "face-id": "Habilitar Face ID"
+            }
+        },
+        "recover-password": "Restablecer contraseña",
+        "register": "Registrarse",
+        "register-social": "O regístrate con",
+        "see-less": "Ver menos",
+        "see-more": "Ver más",
+        "send": "Enviar",
+        "session-expired": "Sesión cerrada",
+        "session-expired-message": "La sesión ha caducado, vuelve a iniciar sesión",
+        "skip": "Saltar",
+        "success": {
+            "change-password": "La contraseña cambió con éxito",
+            "forgot-password": "Se envió un código a tu correo electrónico para restablecer la contraseña",
+            "lock-code": "El dispositivo {{modelName}} se bloqueó con éxito",
+            "recover-password": "La contraseña se restableció con éxito",
+            "suggestion": "Tu sugerencia se añadió con éxito, la tendremos en cuenta para futuras actualizaciones"
+        },
+        "suggestion-portal": "Portal de sugerencias",
+        "suggestion-portal-description": "Dinos qué funciones te gustaría que implementáramos",
+        "title": "Título",
+        "touch-id": "Touch ID",
+        "vote": "Votar",
+        "voted": "Votado",
+        "votes": "Votos",
+        "welcome": "¡Bienvenid@!"
+    }
+}

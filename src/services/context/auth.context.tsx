@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
 import { Loading } from "verity-quik";
+import React, { useContext, useEffect, useState } from "react";
 import {
 	ACCESS_TOKEN_KEY,
 	REFRESH_TOKEN_KEY,
@@ -11,18 +11,18 @@ import {
 	isLocalAuthAvailable,
 } from "../../utils/local-authentication";
 
-import type { PropsComponent } from "../../types";
+import { type PropsComponent } from "../../types";
 import type { BiometricType } from "../../utils/local-authentication";
 import { getAsyncStorage, getEncryptedData } from "../../utils/storage";
 
 const AuthContext = React.createContext<AuthContextInterface>({
 	loading: true,
 	accessToken: null,
-	setAccessToken: () => {},
+	setAccessToken: () => { },
 	refreshToken: null,
-	setRefreshToken: () => {},
+	setRefreshToken: () => { },
 	isUserAuthenticated: false,
-	setIsUserAuthenticated: () => {},
+	setIsUserAuthenticated: () => { },
 	deviceIdentifier: "",
 	isBiometricAvailable: false,
 	biometricType: null,
@@ -90,8 +90,8 @@ export const AuthProvider: React.FC<PropsComponent> = (props) => {
 				haveUserPermission === null
 					? null
 					: haveUserPermission === "true"
-					  ? true
-					  : false,
+						? true
+						: false,
 			);
 
 			await setLoading(false);

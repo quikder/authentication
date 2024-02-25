@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktivieren",
+        "active": "Aktiv",
+        "add": "Hinzufügen",
+        "block": "Blockieren von {{modelName}}",
+        "block-info": "Ein Code wurde an deine E-Mail gesendet. Gib den Code ein, um das Gerät zu blockieren",
+        "blocked": "Blockiert",
+        "brand": "Marke",
+        "change-password": "Passwort ändern",
+        "code": "Code",
+        "confirm-password": "Passwort bestätigen",
+        "current-password": "Aktuelles Passwort",
+        "description": "Beschreibung",
+        "device-model": "Gerätemodell",
+        "email": "E-Mail",
+        "empty": {
+            "suggestion": "Welche Funktionen möchtest du implementiert haben?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Anmelden mit Face ID",
+                "face-recognition": "Anmelden mit Gesichtserkennung",
+                "fingerprint": "Anmelden mit Fingerabdruck",
+                "iris": "Anmelden mit Iris-Erkennung",
+                "touch-id": "Anmelden mit Touch ID"
+            },
+            "current-password": "Falsches Passwort",
+            "description": "Du musst erklären, worin die gewünschte Funktionalität besteht, die wir implementieren sollen",
+            "forgot-password": "Diese E-Mail ist nicht registriert",
+            "invalid-credentials": "Falsche E-Mail oder falsches Passwort",
+            "lock-code": "Falscher Code",
+            "logout": "Ein Fehler ist aufgetreten. Überprüfe deine Verbindung oder versuche es später erneut",
+            "recover-password": "Ungültiger Code",
+            "required": {
+                "confirm-password": "Du musst das Passwort bestätigen",
+                "current-password": "Aktuelles Passwort ist erforderlich",
+                "email": "E-Mail ist erforderlich",
+                "full-name": "Vollständiger Name ist erforderlich",
+                "password": "Passwort ist erforderlich"
+            },
+            "same-password": "Das Passwort kann nicht dasselbe sein wie zuvor",
+            "title": "Titel ist erforderlich",
+            "unique-email": "Diese E-Mail existiert bereits",
+            "valid": {
+                "confirm-password": "Die Passwörter stimmen nicht überein",
+                "email": "Gib eine gültige E-Mail-Adresse ein",
+                "name": "Gib Vor- und Nachnamen ein"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Gesichtserkennung",
+        "fingerprint": "Fingerabdruck",
+        "forgot-password": "Passwort vergessen?",
+        "full-name": "Vollständiger Name",
+        "ip-address": "IP-Adresse",
+        "logged-out": "Abgemeldet",
+        "login": "Anmelden",
+        "login-biometric": "Anmelden mit biometrischen Daten",
+        "login-register": "Registriere dich oder melde dich in deinem Konto an",
+        "login-social": "Oder melde dich an mit",
+        "logout-device": "Gerät abmelden",
+        "make-block": "Blockieren",
+        "new-password": "Neues Passwort",
+        "ok": "OK",
+        "password": "Passwort",
+        "permission": {
+            "description": {
+                "face-id": "Möchtest du dich das nächste Mal mit Face ID anmelden?"
+            },
+            "title": {
+                "face-id": "Face ID aktivieren"
+            }
+        },
+        "recover-password": "Passwort wiederherstellen",
+        "register": "Registrieren",
+        "register-social": "Oder registriere dich mit",
+        "see-less": "Weniger anzeigen",
+        "see-more": "Mehr anzeigen",
+        "send": "Senden",
+        "session-expired": "Sitzung abgelaufen",
+        "session-expired-message": "Die Sitzung ist abgelaufen. Bitte melde dich erneut an",
+        "skip": "Überspringen",
+        "success": {
+            "change-password": "Das Passwort wurde erfolgreich geändert",
+            "forgot-password": "Ein Code wurde an deine E-Mail gesendet, um das Passwort zurückzusetzen",
+            "lock-code": "Das Gerät {{modelName}} wurde erfolgreich blockiert",
+            "recover-password": "Das Passwort wurde erfolgreich wiederhergestellt",
+            "suggestion": "Dein Vorschlag wurde erfolgreich hinzugefügt. Wir werden ihn für zukünftige Updates berücksichtigen"
+        },
+        "suggestion-portal": "Vorschlagsportal",
+        "suggestion-portal-description": "Sag uns, welche Funktionen du gerne implementiert hättest",
+        "title": "Titel",
+        "touch-id": "Touch ID",
+        "vote": "Abstimmen",
+        "voted": "Abgestimmt",
+        "votes": "Stimmen",
+        "welcome": "Willkommen!"
+    }
+}

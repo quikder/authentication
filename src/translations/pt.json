@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Ativar",
+        "active": "Ativo",
+        "add": "Adicionar",
+        "block": "Bloquear {{modelName}}",
+        "block-info": "Um código foi enviado para o seu e-mail. Insira o código para bloquear o dispositivo",
+        "blocked": "Bloqueado",
+        "brand": "Marca",
+        "change-password": "Alterar senha",
+        "code": "Código",
+        "confirm-password": "Confirmar senha",
+        "current-password": "Senha atual",
+        "description": "Descrição",
+        "device-model": "Modelo do dispositivo",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Quais funcionalidades você gostaria que implementássemos?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Entrar com Face ID",
+                "face-recognition": "Entrar com reconhecimento facial",
+                "fingerprint": "Entrar com reconhecimento de impressão digital",
+                "iris": "Entrar com reconhecimento de íris",
+                "touch-id": "Entrar com Touch ID"
+            },
+            "current-password": "Senha incorreta",
+            "description": "É necessário explicar qual é a funcionalidade que você gostaria que implementássemos",
+            "forgot-password": "Este e-mail não está registrado",
+            "invalid-credentials": "E-mail ou senha inválidos",
+            "lock-code": "Código incorreto",
+            "logout": "Ocorreu um erro. Verifique sua conexão ou tente novamente mais tarde",
+            "recover-password": "Código inválido",
+            "required": {
+                "confirm-password": "Você deve confirmar a senha",
+                "current-password": "A senha atual é necessária",
+                "email": "O e-mail é obrigatório",
+                "full-name": "O nome é obrigatório",
+                "password": "A senha é obrigatória"
+            },
+            "same-password": "A senha não pode ser igual à anterior",
+            "title": "O título é necessário",
+            "unique-email": "Este e-mail já existe",
+            "valid": {
+                "confirm-password": "As senhas não coincidem",
+                "email": "Insira um e-mail válido",
+                "name": "Insira nome e sobrenome"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Reconhecimento facial",
+        "fingerprint": "Impressão digital",
+        "forgot-password": "Esqueceu sua senha?",
+        "full-name": "Nome completo",
+        "ip-address": "Endereço IP",
+        "logged-out": "Sessão encerrada",
+        "login": "Entrar",
+        "login-biometric": "Entrar com seus dados biométricos",
+        "login-register": "Registre-se ou faça login em sua conta",
+        "login-social": "Ou faça login com",
+        "logout-device": "Sair do dispositivo",
+        "make-block": "Bloquear",
+        "new-password": "Nova senha",
+        "ok": "OK",
+        "password": "Senha",
+        "permission": {
+            "description": {
+                "face-id": "Deseja entrar com Face ID na próxima vez?"
+            },
+            "title": {
+                "face-id": "Ativar Face ID"
+            }
+        },
+        "recover-password": "Recuperar senha",
+        "register": "Registrar",
+        "register-social": "Ou registre-se com",
+        "see-less": "Ver menos",
+        "see-more": "Ver mais",
+        "send": "Enviar",
+        "session-expired": "Sessão encerrada",
+        "session-expired-message": "A sessão expirou. Faça login novamente",
+        "skip": "Pular",
+        "success": {
+            "change-password": "A senha foi alterada com sucesso",
+            "forgot-password": "Um código foi enviado para o seu e-mail para redefinir a senha",
+            "lock-code": "O dispositivo {{modelName}} foi bloqueado com sucesso",
+            "recover-password": "A senha foi recuperada com sucesso",
+            "suggestion": "Sua sugestão foi adicionada com sucesso. Será considerada para futuras atualizações"
+        },
+        "suggestion-portal": "Portal de sugestões",
+        "suggestion-portal-description": "Diga-nos quais funcionalidades você gostaria que implementássemos",
+        "title": "Título",
+        "touch-id": "Touch ID",
+        "vote": "Votar",
+        "voted": "Votado",
+        "votes": "Votos",
+        "welcome": "Bem-vindo(a)!"
+    }
+}

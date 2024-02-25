@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activar",
+        "active": "Actiu",
+        "add": "Afegir",
+        "block": "Bloquejar {{modelName}}",
+        "block-info": "S'ha enviat un codi al teu correu electrònic, escriu el codi per bloquejar el dispositiu",
+        "blocked": "Bloquejat",
+        "brand": "Marca",
+        "change-password": "Canviar contrasenya",
+        "code": "Codi",
+        "confirm-password": "Confirmar la contrasenya",
+        "current-password": "Contrasenya actual",
+        "description": "Descripció",
+        "device-model": "Model",
+        "email": "Correu electrònic",
+        "empty": {
+            "suggestion": "Quines funcions t'agradaria que implementéssim?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Iniciar sessió amb Face ID",
+                "face-recognition": "Iniciar sessió amb reconeixement facial",
+                "fingerprint": "Iniciar sessió amb reconeixement d'empremta digital",
+                "iris": "Iniciar sessió amb reconeixement d'iris",
+                "touch-id": "Iniciar sessió amb Touch ID"
+            },
+            "current-password": "Contrasenya incorrecta",
+            "description": "Cal que expliquis en què consisteix la funcionalitat que t'agradaria que implementéssim",
+            "forgot-password": "Aquest correu no està registrat",
+            "invalid-credentials": "Correu o contrasenya incorrectes",
+            "lock-code": "Codi incorrecte",
+            "logout": "Hi ha hagut un error, verifica la teva connexió o torna-ho a intentar en un moment",
+            "recover-password": "Codi no vàlid",
+            "required": {
+                "confirm-password": "Has de confirmar la contrasenya",
+                "current-password": "Es requereix la contrasenya actual",
+                "email": "El correu electrònic és obligatori",
+                "full-name": "El nom és obligatori",
+                "password": "La contrasenya és obligatòria"
+            },
+            "same-password": "La contrasenya no pot ser igual a l'anterior",
+            "title": "Es requereix el títol",
+            "unique-email": "Aquest correu ja existeix",
+            "valid": {
+                "confirm-password": "Les contrasenyes no coincideixen",
+                "email": "Introdueix un correu electrònic vàlid",
+                "name": "Introdueix nom i cognom"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Reconeixement facial",
+        "fingerprint": "Empremta digital",
+        "forgot-password": "Has oblidat la teva contrasenya?",
+        "full-name": "Nom complet",
+        "ip-address": "Adreça IP",
+        "logged-out": "Sessió tancada",
+        "login": "Iniciar sessió",
+        "login-biometric": "Iniciar sessió amb les teves dades biomètriques",
+        "login-register": "Registra't o inicia sessió al teu compte",
+        "login-social": "O inicia sessió amb",
+        "logout-device": "Tancar sessió",
+        "make-block": "Bloquejar",
+        "new-password": "Nova contrasenya",
+        "ok": "OK",
+        "password": "Contrasenya",
+        "permission": {
+            "description": {
+                "face-id": "Vols iniciar sessió amb Face ID la propera vegada?"
+            },
+            "title": {
+                "face-id": "Habilitar Face ID"
+            }
+        },
+        "recover-password": "Restablir contrasenya",
+        "register": "Registrar-se",
+        "register-social": "O registra't amb",
+        "see-less": "Veure menys",
+        "see-more": "Veure més",
+        "send": "Enviar",
+        "session-expired": "Sessió tancada",
+        "session-expired-message": "La sessió ha caducat, torna a iniciar sessió",
+        "skip": "Saltar",
+        "success": {
+            "change-password": "La contrasenya s'ha canviat amb èxit",
+            "forgot-password": "S'ha enviat un codi al teu correu electrònic per restablir la contrasenya",
+            "lock-code": "El dispositiu {{modelName}} s'ha bloquejat amb èxit",
+            "recover-password": "La contrasenya s'ha restablert amb èxit",
+            "suggestion": "La teva suggeriment s'ha afegit amb èxit, la tindrem en compte per futures actualitzacions"
+        },
+        "suggestion-portal": "Portal de suggeriments",
+        "suggestion-portal-description": "Dit-nos quines funcions t'agradaria que implementéssim",
+        "title": "Títol",
+        "touch-id": "Touch ID",
+        "vote": "Votar",
+        "voted": "Votat",
+        "votes": "Vots",
+        "welcome": "Benvingut/da!"
+    }
+}

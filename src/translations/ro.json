@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activează",
+        "active": "Activ",
+        "add": "Adaugă",
+        "block": "Blochează {{modelName}}",
+        "block-info": "Un cod a fost trimis pe adresa ta de e-mail. Introdu codul pentru a bloca dispozitivul",
+        "blocked": "Blocat",
+        "brand": "Marcă",
+        "change-password": "Schimbă parola",
+        "code": "Cod",
+        "confirm-password": "Confirmă parola",
+        "current-password": "Parola curentă",
+        "description": "Descriere",
+        "device-model": "Model dispozitiv",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Ce funcționalități ai vrea să implementăm?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Conectează-te cu Face ID",
+                "face-recognition": "Conectează-te cu recunoașterea facială",
+                "fingerprint": "Conectează-te cu recunoașterea amprentei",
+                "iris": "Conectează-te cu recunoașterea irisului",
+                "touch-id": "Conectează-te cu Touch ID"
+            },
+            "current-password": "Parolă incorectă",
+            "description": "Trebuie să explici în ce constă funcționalitatea pe care vrei să o implementăm",
+            "forgot-password": "Acest e-mail nu este înregistrat",
+            "invalid-credentials": "E-mail sau parolă incorecte",
+            "lock-code": "Cod incorect",
+            "logout": "A apărut o eroare. Verifică-ți conexiunea sau încearcă din nou mai târziu",
+            "recover-password": "Cod nevalid",
+            "required": {
+                "confirm-password": "Trebuie să confirmi parola",
+                "current-password": "Parola curentă este necesară",
+                "email": "E-mail-ul este obligatoriu",
+                "full-name": "Numele complet este necesar",
+                "password": "Parola este necesară"
+            },
+            "same-password": "Parola nu poate fi aceeași cu cea anterioară",
+            "title": "Titlul este necesar",
+            "unique-email": "Acest e-mail există deja",
+            "valid": {
+                "confirm-password": "Parolele nu coincid",
+                "email": "Introdu un e-mail valid",
+                "name": "Introdu nume și prenume"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Recunoaștere facială",
+        "fingerprint": "Amprentă",
+        "forgot-password": "Ți-ai uitat parola?",
+        "full-name": "Nume complet",
+        "ip-address": "Adresă IP",
+        "logged-out": "Deconectat",
+        "login": "Conectează-te",
+        "login-biometric": "Conectează-te cu datele tale biometrice",
+        "login-register": "Înregistrează-te sau autentifică-te în contul tău",
+        "login-social": "Sau autentifică-te cu",
+        "logout-device": "Deconectează-te de pe dispozitiv",
+        "make-block": "Blochează",
+        "new-password": "Parolă nouă",
+        "ok": "OK",
+        "password": "Parolă",
+        "permission": {
+            "description": {
+                "face-id": "Vrei să te autentifici cu Face ID data viitoare?"
+            },
+            "title": {
+                "face-id": "Activează Face ID"
+            }
+        },
+        "recover-password": "Recuperare parolă",
+        "register": "Înregistrare",
+        "register-social": "Sau înregistrează-te cu",
+        "see-less": "Vezi mai puțin",
+        "see-more": "Vezi mai mult",
+        "send": "Trimite",
+        "session-expired": "Sesiune expirată",
+        "session-expired-message": "Sesiunea a expirat. Conectează-te din nou",
+        "skip": "Sari peste",
+        "success": {
+            "change-password": "Parola a fost schimbată cu succes",
+            "forgot-password": "Un cod a fost trimis pe adresa ta de e-mail pentru a-ți reseta parola",
+            "lock-code": "Dispozitivul {{modelName}} a fost blocat cu succes",
+            "recover-password": "Parola a fost recuperată cu succes",
+            "suggestion": "Sugestia ta a fost adăugată cu succes. O vom lua în considerare pentru actualizările viitoare"
+        },
+        "suggestion-portal": "Portal de sugestii",
+        "suggestion-portal-description": "Spune-ne ce funcționalități ai vrea să implementăm",
+        "title": "Titlu",
+        "touch-id": "Touch ID",
+        "vote": "Votează",
+        "voted": "Votat",
+        "votes": "Voturi",
+        "welcome": "Bine ai venit!"
+    }
+}

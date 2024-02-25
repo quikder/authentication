@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktiver",
+        "active": "Aktiv",
+        "add": "Tilføj",
+        "block": "Bloker {{modelName}}",
+        "block-info": "En kode er sendt til din e-mail. Indtast koden for at blokere enheden",
+        "blocked": "Blokeret",
+        "brand": "Mærke",
+        "change-password": "Ændr adgangskode",
+        "code": "Kode",
+        "confirm-password": "Bekræft adgangskode",
+        "current-password": "Nuværende adgangskode",
+        "description": "Beskrivelse",
+        "device-model": "Enhedsmodel",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Hvilke funktioner vil du gerne have, vi implementerer?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Log ind med Face ID",
+                "face-recognition": "Log ind med ansigtsgenkendelse",
+                "fingerprint": "Log ind med fingeraftryksgenkendelse",
+                "iris": "Log ind med irisgenkendelse",
+                "touch-id": "Log ind med Touch ID"
+            },
+            "current-password": "Forkert adgangskode",
+            "description": "Du skal beskrive, hvad funktionaliteten, du gerne vil have, vi implementerer, består af",
+            "forgot-password": "Denne e-mail er ikke registreret",
+            "invalid-credentials": "Forkert e-mail eller adgangskode",
+            "lock-code": "Forkert kode",
+            "logout": "Der opstod en fejl. Kontroller din forbindelse eller prøv igen senere",
+            "recover-password": "Ugyldig kode",
+            "required": {
+                "confirm-password": "Du skal bekræfte adgangskoden",
+                "current-password": "Nuværende adgangskode er påkrævet",
+                "email": "E-mail er påkrævet",
+                "full-name": "Fulde navn er påkrævet",
+                "password": "Adgangskode er påkrævet"
+            },
+            "same-password": "Adgangskoden kan ikke være den samme som den forrige",
+            "title": "Titel er påkrævet",
+            "unique-email": "Denne e-mail eksisterer allerede",
+            "valid": {
+                "confirm-password": "Adgangskoderne matcher ikke",
+                "email": "Indtast en gyldig e-mail",
+                "name": "Indtast navn og efternavn"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Ansigtsgenkendelse",
+        "fingerprint": "Fingeraftryk",
+        "forgot-password": "Har du glemt din adgangskode?",
+        "full-name": "Fulde navn",
+        "ip-address": "IP-adresse",
+        "logged-out": "Logget ud",
+        "login": "Log ind",
+        "login-biometric": "Log ind med dine biometriske data",
+        "login-register": "Opret konto eller log ind på din konto",
+        "login-social": "Eller log ind med",
+        "logout-device": "Log ud af enhed",
+        "make-block": "Bloker",
+        "new-password": "Ny adgangskode",
+        "ok": "OK",
+        "password": "Adgangskode",
+        "permission": {
+            "description": {
+                "face-id": "Vil du logge ind med Face ID næste gang?"
+            },
+            "title": {
+                "face-id": "Aktiver Face ID"
+            }
+        },
+        "recover-password": "Gendan adgangskode",
+        "register": "Registrer",
+        "register-social": "Eller registrer med",
+        "see-less": "Se mindre",
+        "see-more": "Se mere",
+        "send": "Send",
+        "session-expired": "Session udløbet",
+        "session-expired-message": "Sessionen er udløbet. Log ind igen",
+        "skip": "Spring over",
+        "success": {
+            "change-password": "Adgangskoden er ændret med succes",
+            "forgot-password": "En kode er sendt til din e-mail for at nulstille adgangskoden",
+            "lock-code": "Enheden {{modelName}} er blokeret med succes",
+            "recover-password": "Adgangskoden er gendannet med succes",
+            "suggestion": "Dit forslag er tilføjet med succes. Vi vil overveje det til fremtidige opdateringer"
+        },
+        "suggestion-portal": "Forslagsportal",
+        "suggestion-portal-description": "Fortæl os, hvilke funktioner du gerne vil have, vi implementerer",
+        "title": "Titel",
+        "touch-id": "Touch ID",
+        "vote": "Stem",
+        "voted": "Stemt",
+        "votes": "Stemmer",
+        "welcome": "Velkommen!"
+    }
+}

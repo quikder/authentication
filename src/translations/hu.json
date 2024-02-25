@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktiválás",
+        "active": "Aktív",
+        "add": "Hozzáadás",
+        "block": "{{modelName}} blokkolása",
+        "block-info": "Egy kódot küldtünk az email címedre, add meg a kódot a készülék blokkolásához",
+        "blocked": "Blokkolva",
+        "brand": "Márka",
+        "change-password": "Jelszó módosítása",
+        "code": "Kód",
+        "confirm-password": "Jelszó megerősítése",
+        "current-password": "Jelenlegi jelszó",
+        "description": "Leírás",
+        "device-model": "Eszköz modell",
+        "email": "Email",
+        "empty": {
+            "suggestion": "Milyen funkciókat szeretnél, hogy megvalósítsunk?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Bejelentkezés arcfelismeréssel",
+                "face-recognition": "Bejelentkezés arcfelismeréssel",
+                "fingerprint": "Bejelentkezés ujjlenyomat alapján",
+                "iris": "Bejelentkezés íriszfelismeréssel",
+                "touch-id": "Bejelentkezés Touch ID-vel"
+            },
+            "current-password": "Hibás jelszó",
+            "description": "Meg kell magyaráznod, milyen funkcionalitást szeretnél, hogy megvalósítsunk",
+            "forgot-password": "Ez az email cím nincs regisztrálva",
+            "invalid-credentials": "Érvénytelen email vagy jelszó",
+            "lock-code": "Érvénytelen kód",
+            "logout": "Hiba történt, ellenőrizze a kapcsolatát, vagy próbálja újra később",
+            "recover-password": "Érvénytelen kód",
+            "required": {
+                "confirm-password": "Meg kell erősíteni a jelszót",
+                "current-password": "A jelenlegi jelszó kötelező",
+                "email": "Az email cím kötelező",
+                "full-name": "A név kötelező",
+                "password": "A jelszó kötelező"
+            },
+            "same-password": "A jelszó nem lehet ugyanaz, mint az előző",
+            "title": "A cím kötelező",
+            "unique-email": "Ez az email cím már létezik",
+            "valid": {
+                "confirm-password": "A jelszavak nem egyeznek",
+                "email": "Érvényes email címet adj meg",
+                "name": "Adjon meg nevet és vezetéknevet"
+            }
+        },
+        "face-id": "Arcfelismerés",
+        "facial-recognition": "Arcfelismerés",
+        "fingerprint": "Ujjlenyomat",
+        "forgot-password": "Elfelejtetted a jelszavad?",
+        "full-name": "Teljes név",
+        "ip-address": "IP cím",
+        "logged-out": "Kijelentkezve",
+        "login": "Bejelentkezés",
+        "login-biometric": "Bejelentkezés biometrikus adatokkal",
+        "login-register": "Regisztrálj vagy lépj be a fiókodba",
+        "login-social": "Vagy jelentkezz be",
+        "logout-device": "Kijelentkezés az eszközről",
+        "make-block": "Blokkolás",
+        "new-password": "Új jelszó",
+        "ok": "OK",
+        "password": "Jelszó",
+        "permission": {
+            "description": {
+                "face-id": "Szeretnél a következő alkalommal arcfelismeréssel bejelentkezni?"
+            },
+            "title": {
+                "face-id": "Arcfelismerés engedélyezése"
+            }
+        },
+        "recover-password": "Jelszó visszaállítása",
+        "register": "Regisztráció",
+        "register-social": "Vagy regisztrálj",
+        "see-less": "Kevesebbet mutat",
+        "see-more": "Többet mutat",
+        "send": "Küldés",
+        "session-expired": "A munkamenet lejárt",
+        "session-expired-message": "A munkamenet lejárt, jelentkezzen be újra",
+        "skip": "Kihagyás",
+        "success": {
+            "change-password": "A jelszó sikeresen megváltozott",
+            "forgot-password": "Egy kódot küldtünk az email címedre a jelszó visszaállításához",
+            "lock-code": "A(z) {{modelName}} eszközt sikeresen blokkoltuk",
+            "recover-password": "A jelszó sikeresen visszaállítva",
+            "suggestion": "Az ötleted sikeresen hozzáadva, figyelembe vesszük a jövőbeli frissítéseknél"
+        },
+        "suggestion-portal": "Javaslatok portálja",
+        "suggestion-portal-description": "Mond el, milyen funkciókat szeretnél, hogy megvalósítsunk",
+        "title": "Cím",
+        "touch-id": "Touch ID",
+        "vote": "Szavazás",
+        "voted": "Szavazott",
+        "votes": "Szavazatok",
+        "welcome": "Üdvözöljük!"
+    }
+}

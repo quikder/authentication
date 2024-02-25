@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "激活",
+        "active": "已激活",
+        "add": "添加",
+        "block": "封锁{{modelName}}",
+        "block-info": "验证码已发送到您的电子邮件，请输入验证码以封锁设备",
+        "blocked": "已封锁",
+        "brand": "品牌",
+        "change-password": "更改密码",
+        "code": "验证码",
+        "confirm-password": "确认密码",
+        "current-password": "当前密码",
+        "description": "描述",
+        "device-model": "型号",
+        "email": "电子邮件",
+        "empty": {
+            "suggestion": "您希望我们实施哪些功能？"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "使用Face ID登录",
+                "face-recognition": "使用面部识别登录",
+                "fingerprint": "使用指纹识别登录",
+                "iris": "使用虹膜识别登录",
+                "touch-id": "使用Touch ID登录"
+            },
+            "current-password": "密码错误",
+            "description": "需要您解释您希望我们实施的功能的内容",
+            "forgot-password": "此电子邮件未注册",
+            "invalid-credentials": "电子邮件或密码错误",
+            "lock-code": "验证码错误",
+            "logout": "发生错误，请检查您的连接或稍后重试",
+            "recover-password": "无效的代码",
+            "required": {
+                "confirm-password": "您必须确认密码",
+                "current-password": "需要当前密码",
+                "email": "电子邮件是必需的",
+                "full-name": "需要姓名",
+                "password": "密码是必需的"
+            },
+            "same-password": "密码不能与先前的相同",
+            "title": "需要标题",
+            "unique-email": "此电子邮件已存在",
+            "valid": {
+                "confirm-password": "密码不匹配",
+                "email": "请输入有效的电子邮件",
+                "name": "请输入姓名"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "面部识别",
+        "fingerprint": "指纹",
+        "forgot-password": "忘记密码？",
+        "full-name": "全名",
+        "ip-address": "IP地址",
+        "logged-out": "已注销",
+        "login": "登录",
+        "login-biometric": "使用生物识别数据登录",
+        "login-register": "注册或登录您的帐户",
+        "login-social": "或使用以下方式登录",
+        "logout-device": "注销设备",
+        "make-block": "封锁",
+        "new-password": "新密码",
+        "ok": "确定",
+        "password": "密码",
+        "permission": {
+            "description": {
+                "face-id": "下次是否要使用Face ID登录？"
+            },
+            "title": {
+                "face-id": "启用Face ID"
+            }
+        },
+        "recover-password": "恢复密码",
+        "register": "注册",
+        "register-social": "或使用以下方式注册",
+        "see-less": "查看更少",
+        "see-more": "查看更多",
+        "send": "发送",
+        "session-expired": "已注销",
+        "session-expired-message": "会话已过期，请重新登录",
+        "skip": "跳过",
+        "success": {
+            "change-password": "密码成功更改",
+            "forgot-password": "已向您的电子邮件发送代码以重置密码",
+            "lock-code": "{{modelName}}设备已成功封锁",
+            "recover-password": "密码成功恢复",
+            "suggestion": "您的建议已成功添加，我们将考虑在将来的更新中使用"
+        },
+        "suggestion-portal": "建议门户",
+        "suggestion-portal-description": "告诉我们您希望我们实施哪些功能",
+        "title": "标题",
+        "touch-id": "Touch ID",
+        "vote": "投票",
+        "voted": "已投票",
+        "votes": "票数",
+        "welcome": "欢迎！"
+    }
+}

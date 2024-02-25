@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktive Et",
+        "active": "Aktif",
+        "add": "Ekle",
+        "block": "{{modelName}}'ı Engelle",
+        "block-info": "E-posta adresinize bir kod gönderildi, cihazı engellemek için kodu girin",
+        "blocked": "Engellendi",
+        "brand": "Marka",
+        "change-password": "Şifreyi Değiştir",
+        "code": "Kod",
+        "confirm-password": "Şifreyi Onayla",
+        "current-password": "Mevcut Şifre",
+        "description": "Açıklama",
+        "device-model": "Cihaz Modeli",
+        "email": "E-posta",
+        "empty": {
+            "suggestion": "Hangi özellikleri uygulamamızı istersiniz?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Face ID ile Giriş Yap",
+                "face-recognition": "Yüz Tanıma ile Giriş Yap",
+                "fingerprint": "Parmak İzi Tanıma ile Giriş Yap",
+                "iris": "Iris Tanıma ile Giriş Yap",
+                "touch-id": "Touch ID ile Giriş Yap"
+            },
+            "current-password": "Yanlış Şifre",
+            "description": "Uygulamamızda uygulanmasını istediğiniz özellikleri açıklamanız gerekiyor",
+            "forgot-password": "Bu e-posta kayıtlı değil",
+            "invalid-credentials": "Geçersiz E-posta veya Şifre",
+            "lock-code": "Yanlış Kod",
+            "logout": "Bir hata oluştu, bağlantınızı kontrol edin veya bir süre sonra tekrar deneyin",
+            "recover-password": "Geçersiz Kod",
+            "required": {
+                "confirm-password": "Şifreyi onaylamalısınız",
+                "current-password": "Mevcut Şifre gerekli",
+                "email": "E-posta gerekli",
+                "full-name": "Ad Soyad gerekli",
+                "password": "Şifre gerekli"
+            },
+            "same-password": "Şifre öncekisiyle aynı olamaz",
+            "title": "Başlık gerekli",
+            "unique-email": "Bu e-posta zaten var",
+            "valid": {
+                "confirm-password": "Şifreler uyuşmuyor",
+                "email": "Geçerli bir e-posta girin",
+                "name": "Ad ve Soyadı girin"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Yüz Tanıma",
+        "fingerprint": "Parmak İzi",
+        "forgot-password": "Şifrenizi mi unuttunuz?",
+        "full-name": "Ad Soyad",
+        "ip-address": "IP Adresi",
+        "logged-out": "Çıkış Yapıldı",
+        "login": "Giriş Yap",
+        "login-biometric": "Biyometrik verilerinizle Giriş Yap",
+        "login-register": "Hesap oluştur veya giriş yap",
+        "login-social": "Veya şununla giriş yap",
+        "logout-device": "Cihazdan Çıkış Yap",
+        "make-block": "Engelle",
+        "new-password": "Yeni Şifre",
+        "ok": "Tamam",
+        "password": "Şifre",
+        "permission": {
+            "description": {
+                "face-id": "Gelecekte Face ID ile giriş yapmak ister misiniz?"
+            },
+            "title": {
+                "face-id": "Face ID'yi Etkinleştir"
+            }
+        },
+        "recover-password": "Şifreyi Kurtar",
+        "register": "Kayıt Ol",
+        "register-social": "Veya şununla kayıt ol",
+        "see-less": "Daha Az Gör",
+        "see-more": "Daha Fazla Gör",
+        "send": "Gönder",
+        "session-expired": "Oturum Süresi Doldu",
+        "session-expired-message": "Oturum süresi doldu, lütfen tekrar oturum açın",
+        "skip": "Atla",
+        "success": {
+            "change-password": "Şifre başarıyla değiştirildi",
+            "forgot-password": "Şifreyi sıfırlamak için e-postanıza bir kod gönderildi",
+            "lock-code": "{{modelName}} cihazı başarıyla engellendi",
+            "recover-password": "Şifre başarıyla kurtarıldı",
+            "suggestion": "Öneriniz başarıyla eklendi, gelecekteki güncellemelerde dikkate alınacak"
+        },
+        "suggestion-portal": "Öneri Portalı",
+        "suggestion-portal-description": "Bize hangi özellikleri uygulamamızı istediğinizi söyleyin",
+        "title": "Başlık",
+        "touch-id": "Touch ID",
+        "vote": "Oy Ver",
+        "voted": "Oy Verildi",
+        "votes": "Oylar",
+        "welcome": "Hoş Geldiniz!"
+    }
+}

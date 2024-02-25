@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activeren",
+        "active": "Actief",
+        "add": "Toevoegen",
+        "block": "Blokkeer {{modelName}}",
+        "block-info": "Er is een code naar je e-mail gestuurd, voer de code in om het apparaat te blokkeren",
+        "blocked": "Geblokkeerd",
+        "brand": "Merk",
+        "change-password": "Wachtwoord wijzigen",
+        "code": "Code",
+        "confirm-password": "Bevestig wachtwoord",
+        "current-password": "Huidig wachtwoord",
+        "description": "Beschrijving",
+        "device-model": "Apparaatmodel",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Welke functies zou je graag geïmplementeerd zien?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Inloggen met Face ID",
+                "face-recognition": "Inloggen met gezichtsherkenning",
+                "fingerprint": "Inloggen met vingerafdrukherkenning",
+                "iris": "Inloggen met iris-herkenning",
+                "touch-id": "Inloggen met Touch ID"
+            },
+            "current-password": "Onjuist wachtwoord",
+            "description": "Je moet uitleggen waaruit de gewenste functionaliteit bestaat die we zouden moeten implementeren",
+            "forgot-password": "Deze e-mail is niet geregistreerd",
+            "invalid-credentials": "Onjuiste e-mail of wachtwoord",
+            "lock-code": "Onjuiste code",
+            "logout": "Er is een fout opgetreden, controleer je verbinding of probeer het later opnieuw",
+            "recover-password": "Ongeldige code",
+            "required": {
+                "confirm-password": "Je moet het wachtwoord bevestigen",
+                "current-password": "Huidig wachtwoord is vereist",
+                "email": "E-mail is verplicht",
+                "full-name": "Volledige naam is vereist",
+                "password": "Wachtwoord is vereist"
+            },
+            "same-password": "Het wachtwoord kan niet hetzelfde zijn als het vorige",
+            "title": "Titel is vereist",
+            "unique-email": "Deze e-mail bestaat al",
+            "valid": {
+                "confirm-password": "Wachtwoorden komen niet overeen",
+                "email": "Voer een geldig e-mailadres in",
+                "name": "Voer naam en achternaam in"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Gezichtsherkenning",
+        "fingerprint": "Vingerafdruk",
+        "forgot-password": "Wachtwoord vergeten?",
+        "full-name": "Volledige naam",
+        "ip-address": "IP-adres",
+        "logged-out": "Uitgelogd",
+        "login": "Inloggen",
+        "login-biometric": "Inloggen met biometrische gegevens",
+        "login-register": "Registreren of inloggen op je account",
+        "login-social": "Of inloggen met",
+        "logout-device": "Uitloggen apparaat",
+        "make-block": "Blokkeren",
+        "new-password": "Nieuw wachtwoord",
+        "ok": "OK",
+        "password": "Wachtwoord",
+        "permission": {
+            "description": {
+                "face-id": "Wil je de volgende keer inloggen met Face ID?"
+            },
+            "title": {
+                "face-id": "Face ID inschakelen"
+            }
+        },
+        "recover-password": "Wachtwoord herstellen",
+        "register": "Registreren",
+        "register-social": "Of registreren met",
+        "see-less": "Minder bekijken",
+        "see-more": "Meer bekijken",
+        "send": "Verzenden",
+        "session-expired": "Sessie verlopen",
+        "session-expired-message": "De sessie is verlopen, log opnieuw in",
+        "skip": "Overslaan",
+        "success": {
+            "change-password": "Het wachtwoord is succesvol gewijzigd",
+            "forgot-password": "Er is een code naar je e-mail gestuurd om het wachtwoord opnieuw in te stellen",
+            "lock-code": "Het apparaat {{modelName}} is succesvol geblokkeerd",
+            "recover-password": "Het wachtwoord is succesvol hersteld",
+            "suggestion": "Je suggestie is succesvol toegevoegd, we zullen er rekening mee houden voor toekomstige updates"
+        },
+        "suggestion-portal": "Suggestieportaal",
+        "suggestion-portal-description": "Vertel ons welke functies je graag geïmplementeerd zou zien",
+        "title": "Titel",
+        "touch-id": "Touch ID",
+        "vote": "Stemmen",
+        "voted": "Gestemd",
+        "votes": "Stemmen",
+        "welcome": "Welkom!"
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Kích hoạt",
+        "active": "Hoạt động",
+        "add": "Thêm",
+        "block": "Chặn {{modelName}}",
+        "block-info": "Một mã đã được gửi đến email của bạn, nhập mã để chặn thiết bị",
+        "blocked": "Đã chặn",
+        "brand": "Thương hiệu",
+        "change-password": "Đổi mật khẩu",
+        "code": "Mã",
+        "confirm-password": "Xác nhận mật khẩu",
+        "current-password": "Mật khẩu hiện tại",
+        "description": "Mô tả",
+        "device-model": "Mô hình thiết bị",
+        "email": "Email",
+        "empty": {
+            "suggestion": "Bạn muốn chúng tôi thực hiện chức năng gì?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Đăng nhập bằng Face ID",
+                "face-recognition": "Đăng nhập bằng nhận diện khuôn mặt",
+                "fingerprint": "Đăng nhập bằng nhận diện dấu vân tay",
+                "iris": "Đăng nhập bằng nhận diện mống mắt",
+                "touch-id": "Đăng nhập bằng Touch ID"
+            },
+            "current-password": "Mật khẩu không đúng",
+            "description": "Bạn cần mô tả chức năng bạn muốn chúng tôi thực hiện là gì",
+            "forgot-password": "Email này chưa được đăng ký",
+            "invalid-credentials": "Email hoặc mật khẩu không đúng",
+            "lock-code": "Mã không đúng",
+            "logout": "Có lỗi xảy ra, kiểm tra kết nối của bạn hoặc thử lại sau một thời gian",
+            "recover-password": "Mã không hợp lệ",
+            "required": {
+                "confirm-password": "Bạn phải xác nhận mật khẩu",
+                "current-password": "Yêu cầu mật khẩu hiện tại",
+                "email": "Email là bắt buộc",
+                "full-name": "Tên đầy đủ là bắt buộc",
+                "password": "Mật khẩu là bắt buộc"
+            },
+            "same-password": "Mật khẩu không thể giống mật khẩu trước đó",
+            "title": "Tiêu đề là bắt buộc",
+            "unique-email": "Email này đã tồn tại",
+            "valid": {
+                "confirm-password": "Mật khẩu không khớp",
+                "email": "Vui lòng nhập một địa chỉ email hợp lệ",
+                "name": "Vui lòng nhập tên đầy đủ"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Nhận diện khuôn mặt",
+        "fingerprint": "Nhận diện dấu vân tay",
+        "forgot-password": "Quên mật khẩu?",
+        "full-name": "Họ và tên",
+        "ip-address": "Địa chỉ IP",
+        "logged-out": "Đã đăng xuất",
+        "login": "Đăng nhập",
+        "login-biometric": "Đăng nhập bằng dữ liệu sinh trắc học của bạn",
+        "login-register": "Đăng ký hoặc đăng nhập vào tài khoản của bạn",
+        "login-social": "Hoặc đăng nhập bằng",
+        "logout-device": "Đăng xuất thiết bị",
+        "make-block": "Chặn",
+        "new-password": "Mật khẩu mới",
+        "ok": "OK",
+        "password": "Mật khẩu",
+        "permission": {
+            "description": {
+                "face-id": "Bạn có muốn đăng nhập bằng Face ID lần sau không?"
+            },
+            "title": {
+                "face-id": "Bật Face ID"
+            }
+        },
+        "recover-password": "Khôi phục mật khẩu",
+        "register": "Đăng ký",
+        "register-social": "Hoặc đăng ký bằng",
+        "see-less": "Xem ít hơn",
+        "see-more": "Xem thêm",
+        "send": "Gửi",
+        "session-expired": "Phiên đã kết thúc",
+        "session-expired-message": "Phiên đã kết thúc, vui lòng đăng nhập lại",
+        "skip": "Bỏ qua",
+        "success": {
+            "change-password": "Đổi mật khẩu thành công",
+            "forgot-password": "Một mã đã được gửi đến email của bạn để đặt lại mật khẩu",
+            "lock-code": "Thiết bị {{modelName}} đã được chặn thành công",
+            "recover-password": "Mật khẩu đã được khôi phục thành công",
+            "suggestion": "Đề xuất của bạn đã được thêm thành công, chúng tôi sẽ xem xét nó để cập nhật trong tương lai"
+        },
+        "suggestion-portal": "Cổng đề xuất",
+        "suggestion-portal-description": "Hãy nói cho chúng tôi biết bạn muốn chúng tôi thực hiện chức năng gì",
+        "title": "Tiêu đề",
+        "touch-id": "Touch ID",
+        "vote": "Bình chọn",
+        "voted": "Đã bình chọn",
+        "votes": "Phiếu bầu",
+        "welcome": "Chào mừng bạn!"
+    }
+}

@@ -32,7 +32,7 @@ export const Info = styled(Text)`
 
 export const Status = styled(Text)<{ status: string }>`
     color: ${({ theme, status }) =>
-    //@ts-ignore
+			//@ts-ignore
 			status === "active" ? theme?.colors?.success : theme?.colors?.error};
 `;
 

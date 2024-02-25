@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Attiva",
+        "active": "Attivo",
+        "add": "Aggiungi",
+        "block": "Blocca {{modelName}}",
+        "block-info": "È stato inviato un codice alla tua email, inserisci il codice per bloccare il dispositivo",
+        "blocked": "Bloccato",
+        "brand": "Marca",
+        "change-password": "Cambia password",
+        "code": "Codice",
+        "confirm-password": "Conferma password",
+        "current-password": "Password attuale",
+        "description": "Descrizione",
+        "device-model": "Modello dispositivo",
+        "email": "Email",
+        "empty": {
+            "suggestion": "Quali funzionalità vorresti che implementassimo?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Accedi con Face ID",
+                "face-recognition": "Accedi con riconoscimento facciale",
+                "fingerprint": "Accedi con riconoscimento dell'impronta digitale",
+                "iris": "Accedi con riconoscimento dell'iride",
+                "touch-id": "Accedi con Touch ID"
+            },
+            "current-password": "Password errata",
+            "description": "È necessario spiegare in cosa consiste la funzionalità che vorresti che implementassimo",
+            "forgot-password": "Questa email non è registrata",
+            "invalid-credentials": "Email o password non valide",
+            "lock-code": "Codice di blocco errato",
+            "logout": "Si è verificato un errore, verifica la tua connessione o riprova più tardi",
+            "recover-password": "Codice non valido",
+            "required": {
+                "confirm-password": "Devi confermare la password",
+                "current-password": "È richiesta la password attuale",
+                "email": "L'indirizzo email è richiesto",
+                "full-name": "Il nome è richiesto",
+                "password": "La password è richiesta"
+            },
+            "same-password": "La password non può essere uguale a quella precedente",
+            "title": "È richiesto il titolo",
+            "unique-email": "Questa email esiste già",
+            "valid": {
+                "confirm-password": "Le password non coincidono",
+                "email": "Inserisci un indirizzo email valido",
+                "name": "Inserisci nome e cognome"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Riconoscimento facciale",
+        "fingerprint": "Impronta digitale",
+        "forgot-password": "Hai dimenticato la password?",
+        "full-name": "Nome completo",
+        "ip-address": "Indirizzo IP",
+        "logged-out": "Sessione terminata",
+        "login": "Accedi",
+        "login-biometric": "Accedi con i tuoi dati biometrici",
+        "login-register": "Registrati o accedi al tuo account",
+        "login-social": "O accedi con",
+        "logout-device": "Esci dal dispositivo",
+        "make-block": "Blocca",
+        "new-password": "Nuova password",
+        "ok": "OK",
+        "password": "Password",
+        "permission": {
+            "description": {
+                "face-id": "Vuoi accedere con Face ID la prossima volta?"
+            },
+            "title": {
+                "face-id": "Abilita Face ID"
+            }
+        },
+        "recover-password": "Ripristina password",
+        "register": "Registrati",
+        "register-social": "O registrati con",
+        "see-less": "Vedi meno",
+        "see-more": "Vedi più",
+        "send": "Invia",
+        "session-expired": "Sessione terminata",
+        "session-expired-message": "La sessione è scaduta, effettua nuovamente l'accesso",
+        "skip": "Salta",
+        "success": {
+            "change-password": "La password è stata cambiata con successo",
+            "forgot-password": "È stato inviato un codice alla tua email per ripristinare la password",
+            "lock-code": "Il dispositivo {{modelName}} è stato bloccato con successo",
+            "recover-password": "La password è stata ripristinata con successo",
+            "suggestion": "La tua proposta è stata aggiunta con successo, la terremo in considerazione per futuri aggiornamenti"
+        },
+        "suggestion-portal": "Portale delle proposte",
+        "suggestion-portal-description": "Dicci quali funzionalità vorresti che implementassimo",
+        "title": "Titolo",
+        "touch-id": "Touch ID",
+        "vote": "Vota",
+        "voted": "Votato",
+        "votes": "Voti",
+        "welcome": "Benvenuto!"
+    }
+}

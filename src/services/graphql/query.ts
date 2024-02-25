@@ -14,3 +14,16 @@ query MyQuery($loginSource: String = "") {
   }
 }
 `;
+
+export const ALL_SUGGESTIONS = gql`
+query AllSUggestions($loginSource: String = "") {
+  allSuggestions(loginSource: $loginSource) {
+    id
+    title
+    description
+    totalVotes
+    haveMyVote
+    isMine
+  }
+}
+`;

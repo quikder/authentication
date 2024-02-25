@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktivovať",
+        "active": "Aktívny",
+        "add": "Pridať",
+        "block": "Blokovať {{modelName}}",
+        "block-info": "Na váš e-mail bol odoslaný kód. Zadajte kód pre blokovanie zariadenia",
+        "blocked": "Zablokované",
+        "brand": "Značka",
+        "change-password": "Zmeniť heslo",
+        "code": "Kód",
+        "confirm-password": "Potvrdiť heslo",
+        "current-password": "Aktuálne heslo",
+        "description": "Popis",
+        "device-model": "Model zariadenia",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Aké funkcie by ste chceli, aby sme implementovali?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Prihlásiť sa pomocou Face ID",
+                "face-recognition": "Prihlásiť sa pomocou rozpoznávania tváre",
+                "fingerprint": "Prihlásiť sa pomocou odtlačku prsta",
+                "iris": "Prihlásiť sa pomocou rozpoznávania irisu",
+                "touch-id": "Prihlásiť sa pomocou Touch ID"
+            },
+            "current-password": "Nesprávne heslo",
+            "description": "Musíte vysvetliť, v čom spočíva funkcionalita, ktorú by ste chceli, aby sme implementovali",
+            "forgot-password": "Tento e-mail nie je zaregistrovaný",
+            "invalid-credentials": "Nesprávny e-mail alebo heslo",
+            "lock-code": "Nesprávny kód",
+            "logout": "Došlo k chybe. Skontrolujte svoje pripojenie alebo skúste znova neskôr",
+            "recover-password": "Neplatný kód",
+            "required": {
+                "confirm-password": "Musíte potvrdiť heslo",
+                "current-password": "Je potrebné aktuálne heslo",
+                "email": "E-mail je povinný",
+                "full-name": "Meno je povinné",
+                "password": "Heslo je povinné"
+            },
+            "same-password": "Heslo nemôže byť rovnaké ako predchádzajúce",
+            "title": "Názov je povinný",
+            "unique-email": "Tento e-mail už existuje",
+            "valid": {
+                "confirm-password": "Heslá sa nezhodujú",
+                "email": "Zadajte platný e-mail",
+                "name": "Zadajte meno a priezvisko"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Rozpoznávanie tváre",
+        "fingerprint": "Odtlačok prsta",
+        "forgot-password": "Zabudli ste heslo?",
+        "full-name": "Celé meno",
+        "ip-address": "IP adresa",
+        "logged-out": "Odhlásené",
+        "login": "Prihlásiť sa",
+        "login-biometric": "Prihlásiť sa pomocou biometrických údajov",
+        "login-register": "Registrovať sa alebo prihlásiť sa do vášho účtu",
+        "login-social": "Alebo sa prihlásiť cez",
+        "logout-device": "Odhlásiť sa zariadenie",
+        "make-block": "Blokovať",
+        "new-password": "Nové heslo",
+        "ok": "OK",
+        "password": "Heslo",
+        "permission": {
+            "description": {
+                "face-id": "Chcete sa prihlásiť pomocou Face ID nabudúce?"
+            },
+            "title": {
+                "face-id": "Povoliť Face ID"
+            }
+        },
+        "recover-password": "Obnoviť heslo",
+        "register": "Registrovať sa",
+        "register-social": "Alebo sa zaregistrujte cez",
+        "see-less": "Zobraziť menej",
+        "see-more": "Zobraziť viac",
+        "send": "Odoslať",
+        "session-expired": "Relácia vypršala",
+        "session-expired-message": "Relácia vypršala. Prihláste sa znova",
+        "skip": "Preskočiť",
+        "success": {
+            "change-password": "Heslo bolo úspešne zmenené",
+            "forgot-password": "Na váš e-mail bol odoslaný kód na obnovenie hesla",
+            "lock-code": "Zariadenie {{modelName}} bolo úspešne zablokované",
+            "recover-password": "Heslo bolo úspešne obnovené",
+            "suggestion": "Vaša sugestia bola úspešne pridaná. Budeme ju brať do úvahy pri budúcich aktualizáciách"
+        },
+        "suggestion-portal": "Portál návrhov",
+        "suggestion-portal-description": "Povedzte nám, aké funkcie by ste chceli, aby sme implementovali",
+        "title": "Názov",
+        "touch-id": "Touch ID",
+        "vote": "Hlasovať",
+        "voted": "Hlasované",
+        "votes": "Hlasy",
+        "welcome": "Vitajte!"
+    }
+}

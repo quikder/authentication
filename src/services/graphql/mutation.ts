@@ -118,3 +118,37 @@ mutation RefreshToken($refreshToken: String!) {
   }
 }
 `;
+
+export const ADD_SUGGESTION = gql`
+mutation AddSuggestion($suggestionInput: SuggestionInput!) {
+  addSuggestion(suggestionInput: $suggestionInput) {
+    success
+    error
+    suggestion {
+      id
+      title
+      description
+      totalVotes
+      haveMyVote
+      isMine
+    }
+  }
+}
+`;
+
+export const VOTE_SUGGESTION = gql`
+mutation VoteForSuggestion($suggestionId: ID = "") {
+  voteForSuggestion(suggestionId: $suggestionId) {
+    success
+    error
+    suggestion {
+      id
+      title
+      description
+      totalVotes
+      haveMyVote
+      isMine
+    }
+  }
+}
+`;

@@ -14,8 +14,6 @@ export const MenuBlock: React.FC<ItemProps> = ({
 	verify,
 	loadingVerify,
 }) => {
-	console.log(modelName);
-
 	const { width } = useWindowDimensions();
 	const [code, setCode] = useState<string>("");
 

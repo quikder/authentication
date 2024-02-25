@@ -2,6 +2,7 @@ import { TextInput } from "verity-quik";
 import { useMutation } from "@apollo/client";
 import { t } from "i18next";
 import { useState } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import { ScrollView } from "react-native";
 import { Button, TextInput as DefaultInput } from "react-native-paper";
@@ -9,7 +10,6 @@ import Toast from "react-native-toast-message";
 import { CHANGE_PASSWORD } from "../services/graphql/mutation";
 import type { ChangePasswordType } from "../types";
 import { Form } from "./styled";
-import React from "react";
 
 export const FormChangePassword = () => {
 	const [errorCurrentPassword, setErrorCurrentPassword] =
@@ -36,7 +36,6 @@ export const FormChangePassword = () => {
 					});
 					setErrorCurrentPassword(false);
 				} else {
-					console.log(changePassword);
 					if (changePassword?.errors === "invalid-password") {
 						setErrorCurrentPassword(true);
 					} else if (changePassword?.errors === "same-password") {

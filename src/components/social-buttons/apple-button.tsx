@@ -1,7 +1,7 @@
 import * as AppleAuthentication from "expo-apple-authentication";
 import { useEffect, useState } from "react";
-import React from "react";
 import { Button, Icon } from "./styled";
+import React from "react";
 
 export const AppleButton = () => {
 	const [isAvailable, setIsAvailable] = useState(false);
@@ -26,8 +26,6 @@ export const AppleButton = () => {
 									AppleAuthentication.AppleAuthenticationScope.EMAIL,
 								],
 							});
-
-							console.log(credential);
 						} catch (e: any) {
 							if (e.code === "ERR_REQUEST_CANCELED") {
 							}

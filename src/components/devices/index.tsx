@@ -1,9 +1,9 @@
 import { ErrorServer, Loading, useWidth } from "verity-quik";
 import { useQuery } from "@apollo/client";
+import React from "react";
 import { FlatList, useWindowDimensions } from "react-native";
 import { MY_DEVICES } from "../../services/graphql/query";
 import { Item } from "./item";
-import React from "react";
 
 export const Devices: React.FC<Props> = ({ loginSource }) => {
 	const { width } = useWindowDimensions();

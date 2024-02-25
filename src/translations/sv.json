@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktivera",
+        "active": "Aktiv",
+        "add": "Lägg till",
+        "block": "Blockera {{modelName}}",
+        "block-info": "En kod har skickats till din e-post. Ange koden för att blockera enheten",
+        "blocked": "Blockerad",
+        "brand": "Märke",
+        "change-password": "Ändra lösenord",
+        "code": "Kod",
+        "confirm-password": "Bekräfta lösenord",
+        "current-password": "Nuvarande lösenord",
+        "description": "Beskrivning",
+        "device-model": "Enhetsmodell",
+        "email": "E-post",
+        "empty": {
+            "suggestion": "Vilka funktioner skulle du vilja att vi implementerar?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Logga in med Face ID",
+                "face-recognition": "Logga in med ansiktsigenkänning",
+                "fingerprint": "Logga in med fingeravtryck",
+                "iris": "Logga in med irisigenkänning",
+                "touch-id": "Logga in med Touch ID"
+            },
+            "current-password": "Fel lösenord",
+            "description": "Du måste förklara vad funktionaliteten du vill att vi implementerar innebär",
+            "forgot-password": "Den här e-postadressen är inte registrerad",
+            "invalid-credentials": "Felaktig e-postadress eller lösenord",
+            "lock-code": "Fel kod",
+            "logout": "Ett fel inträffade. Kontrollera din anslutning eller försök igen senare",
+            "recover-password": "Ogiltig kod",
+            "required": {
+                "confirm-password": "Du måste bekräfta lösenordet",
+                "current-password": "Nuvarande lösenord krävs",
+                "email": "E-postadressen krävs",
+                "full-name": "Fullständigt namn krävs",
+                "password": "Lösenord krävs"
+            },
+            "same-password": "Lösenordet kan inte vara samma som det tidigare",
+            "title": "Rubrik krävs",
+            "unique-email": "Den här e-postadressen finns redan",
+            "valid": {
+                "confirm-password": "Lösenorden matchar inte",
+                "email": "Ange en giltig e-postadress",
+                "name": "Ange för- och efternamn"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Ansiktsigenkänning",
+        "fingerprint": "Fingeravtryck",
+        "forgot-password": "Glömt ditt lösenord?",
+        "full-name": "Fullständigt namn",
+        "ip-address": "IP-adress",
+        "logged-out": "Utloggad",
+        "login": "Logga in",
+        "login-biometric": "Logga in med dina biometriska uppgifter",
+        "login-register": "Registrera dig eller logga in på ditt konto",
+        "login-social": "Eller logga in med",
+        "logout-device": "Logga ut från enheten",
+        "make-block": "Blockera",
+        "new-password": "Nytt lösenord",
+        "ok": "OK",
+        "password": "Lösenord",
+        "permission": {
+            "description": {
+                "face-id": "Vill du logga in med Face ID nästa gång?"
+            },
+            "title": {
+                "face-id": "Aktivera Face ID"
+            }
+        },
+        "recover-password": "Återställ lösenord",
+        "register": "Registrera",
+        "register-social": "Eller registrera dig med",
+        "see-less": "Visa mindre",
+        "see-more": "Visa mer",
+        "send": "Skicka",
+        "session-expired": "Sessionen har löpt ut",
+        "session-expired-message": "Sessionen har löpt ut. Logga in igen",
+        "skip": "Hoppa över",
+        "success": {
+            "change-password": "Lösenordet har ändrats framgångsrikt",
+            "forgot-password": "En kod har skickats till din e-post för att återställa lösenordet",
+            "lock-code": "Enheten {{modelName}} har blockerats framgångsrikt",
+            "recover-password": "Lösenordet har återställts framgångsrikt",
+            "suggestion": "Ditt förslag har lagts till framgångsrikt och kommer att beaktas för framtida uppdateringar"
+        },
+        "suggestion-portal": "Förslagsportalen",
+        "suggestion-portal-description": "Berätta vilka funktioner du skulle vilja att vi implementerar",
+        "title": "Rubrik",
+        "touch-id": "Touch ID",
+        "vote": "Rösta",
+        "voted": "Röstat",
+        "votes": "Röster",
+        "welcome": "Välkommen!"
+    }
+}

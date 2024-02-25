@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktiviraj",
+        "active": "Aktivan",
+        "add": "Dodaj",
+        "block": "Blokiraj {{modelName}}",
+        "block-info": "Poslan ti je kod na tvoju e-mail adresu, unesi kod kako bi blokirao uređaj",
+        "blocked": "Blokiran",
+        "brand": "Marka",
+        "change-password": "Promijeni lozinku",
+        "code": "Šifra",
+        "confirm-password": "Potvrdi lozinku",
+        "current-password": "Trenutna lozinka",
+        "description": "Opis",
+        "device-model": "Model uređaja",
+        "email": "E-mail adresa",
+        "empty": {
+            "suggestion": "Koje funkcije želiš da implementiramo?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Prijavi se putem Face ID-a",
+                "face-recognition": "Prijavi se putem prepoznavanja lica",
+                "fingerprint": "Prijavi se putem prepoznavanja otiska prsta",
+                "iris": "Prijavi se putem prepoznavanja irisa",
+                "touch-id": "Prijavi se putem Touch ID-a"
+            },
+            "current-password": "Netočna lozinka",
+            "description": "Potrebno je objasniti o čemu se radi kod funkcionalnosti koju želiš da implementiramo",
+            "forgot-password": "Ova e-mail adresa nije registrirana",
+            "invalid-credentials": "Netočan e-mail ili lozinka",
+            "lock-code": "Netočna šifra",
+            "logout": "Dogodila se pogreška, provjeri svoju vezu ili pokušaj ponovno kasnije",
+            "recover-password": "Neispravan kod",
+            "required": {
+                "confirm-password": "Moraš potvrditi lozinku",
+                "current-password": "Trenutna lozinka je obavezna",
+                "email": "E-mail adresa je obavezna",
+                "full-name": "Ime i prezime su obavezni",
+                "password": "Lozinka je obavezna"
+            },
+            "same-password": "Lozinka ne može biti ista kao prethodna",
+            "title": "Naslov je obavezan",
+            "unique-email": "Ova e-mail adresa već postoji",
+            "valid": {
+                "confirm-password": "Lozinke se ne podudaraju",
+                "email": "Unesi valjanu e-mail adresu",
+                "name": "Unesi ime i prezime"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Prepoznavanje lica",
+        "fingerprint": "Prepoznavanje otiska prsta",
+        "forgot-password": "Zaboravljena lozinka?",
+        "full-name": "Puno ime",
+        "ip-address": "IP adresa",
+        "logged-out": "Odjava",
+        "login": "Prijava",
+        "login-biometric": "Prijava putem biometrijskih podataka",
+        "login-register": "Registriraj se ili prijavi na svoj račun",
+        "login-social": "Ili se prijavi putem",
+        "logout-device": "Odjavi uređaj",
+        "make-block": "Blokiraj",
+        "new-password": "Nova lozinka",
+        "ok": "OK",
+        "password": "Lozinka",
+        "permission": {
+            "description": {
+                "face-id": "Želiš li se prijaviti putem Face ID-a sljedeći put?"
+            },
+            "title": {
+                "face-id": "Omogući Face ID"
+            }
+        },
+        "recover-password": "Ponovno postavljanje lozinke",
+        "register": "Registriraj se",
+        "register-social": "Ili se registriraj putem",
+        "see-less": "Vidi manje",
+        "see-more": "Vidi više",
+        "send": "Pošalji",
+        "session-expired": "Sesija istekla",
+        "session-expired-message": "Sesija je istekla, molimo te ponovno se prijavi",
+        "skip": "Preskoči",
+        "success": {
+            "change-password": "Lozinka je uspješno promijenjena",
+            "forgot-password": "Poslan ti je kod na e-mail za ponovno postavljanje lozinke",
+            "lock-code": "Uređaj {{modelName}} je uspješno blokiran",
+            "recover-password": "Lozinka je uspješno ponovno postavljena",
+            "suggestion": "Tvoj prijedlog je uspješno dodan, razmotrit ćemo ga u budućim ažuriranjima"
+        },
+        "suggestion-portal": "Portal prijedloga",
+        "suggestion-portal-description": "Reci nam koje funkcije želiš da implementiramo",
+        "title": "Naslov",
+        "touch-id": "Touch ID",
+        "vote": "Glasaj",
+        "voted": "Glasano",
+        "votes": "Glasovi",
+        "welcome": "Dobrodošao/la!"
+    }
+}

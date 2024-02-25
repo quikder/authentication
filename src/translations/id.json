@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktifkan",
+        "active": "Aktif",
+        "add": "Tambah",
+        "block": "Blokir {{modelName}}",
+        "block-info": "Kami telah mengirimkan kode ke email Anda, masukkan kode tersebut untuk memblokir perangkat",
+        "blocked": "Diblokir",
+        "brand": "Merek",
+        "change-password": "Ubah Kata Sandi",
+        "code": "Kode",
+        "confirm-password": "Konfirmasi Kata Sandi",
+        "current-password": "Kata Sandi Saat Ini",
+        "description": "Deskripsi",
+        "device-model": "Model Perangkat",
+        "email": "Email",
+        "empty": {
+            "suggestion": "Fungsi apa yang ingin Anda kami implementasikan?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Masuk dengan Face ID",
+                "face-recognition": "Masuk dengan pengenalan wajah",
+                "fingerprint": "Masuk dengan sidik jari",
+                "iris": "Masuk dengan pengenalan iris",
+                "touch-id": "Masuk dengan Touch ID"
+            },
+            "current-password": "Kata sandi salah",
+            "description": "Anda perlu menjelaskan apa yang ingin Anda kami implementasikan",
+            "forgot-password": "Email ini tidak terdaftar",
+            "invalid-credentials": "Email atau kata sandi salah",
+            "lock-code": "Kode salah",
+            "logout": "Terjadi kesalahan, periksa koneksi Anda atau coba lagi nanti",
+            "recover-password": "Kode tidak valid",
+            "required": {
+                "confirm-password": "Anda harus mengkonfirmasi kata sandi",
+                "current-password": "Kata sandi saat ini diperlukan",
+                "email": "Email diperlukan",
+                "full-name": "Nama lengkap diperlukan",
+                "password": "Kata sandi diperlukan"
+            },
+            "same-password": "Kata sandi tidak boleh sama dengan sebelumnya",
+            "title": "Judul diperlukan",
+            "unique-email": "Email ini sudah ada",
+            "valid": {
+                "confirm-password": "Kata sandi tidak cocok",
+                "email": "Masukkan email yang valid",
+                "name": "Masukkan nama lengkap"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Pengenalan wajah",
+        "fingerprint": "Sidik jari",
+        "forgot-password": "Lupa kata sandi?",
+        "full-name": "Nama lengkap",
+        "ip-address": "Alamat IP",
+        "logged-out": "Keluar",
+        "login": "Masuk",
+        "login-biometric": "Masuk dengan data biometrik Anda",
+        "login-register": "Daftar atau masuk ke akun Anda",
+        "login-social": "Atau masuk dengan",
+        "logout-device": "Keluar dari perangkat",
+        "make-block": "Blokir",
+        "new-password": "Kata Sandi Baru",
+        "ok": "OK",
+        "password": "Kata Sandi",
+        "permission": {
+            "description": {
+                "face-id": "Ingin masuk dengan Face ID lain waktu?"
+            },
+            "title": {
+                "face-id": "Aktifkan Face ID"
+            }
+        },
+        "recover-password": "Atur ulang kata sandi",
+        "register": "Daftar",
+        "register-social": "Atau daftar dengan",
+        "see-less": "Lihat lebih sedikit",
+        "see-more": "Lihat lebih banyak",
+        "send": "Kirim",
+        "session-expired": "Sesi berakhir",
+        "session-expired-message": "Sesi telah berakhir, silakan masuk kembali",
+        "skip": "Lewati",
+        "success": {
+            "change-password": "Kata sandi berhasil diubah",
+            "forgot-password": "Kami telah mengirimkan kode ke email Anda untuk mereset kata sandi",
+            "lock-code": "Perangkat {{modelName}} berhasil diblokir",
+            "recover-password": "Kata sandi berhasil diatur ulang",
+            "suggestion": "Saran Anda berhasil ditambahkan, akan kami pertimbangkan untuk pembaruan mendatang"
+        },
+        "suggestion-portal": "Portal Saran",
+        "suggestion-portal-description": "Beritahu kami fitur apa yang ingin Anda kami implementasikan",
+        "title": "Judul",
+        "touch-id": "Touch ID",
+        "vote": "Voting",
+        "voted": "Sudah divoting",
+        "votes": "Voting",
+        "welcome": "Selamat datang!"
+    }
+}

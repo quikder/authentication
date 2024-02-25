@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Activer",
+        "active": "Actif",
+        "add": "Ajouter",
+        "block": "Bloquer {{modelName}}",
+        "block-info": "Un code a été envoyé à votre adresse e-mail. Entrez le code pour bloquer l'appareil.",
+        "blocked": "Bloqué",
+        "brand": "Marque",
+        "change-password": "Changer le mot de passe",
+        "code": "Code",
+        "confirm-password": "Confirmer le mot de passe",
+        "current-password": "Mot de passe actuel",
+        "description": "Description",
+        "device-model": "Modèle de l'appareil",
+        "email": "E-mail",
+        "empty": {
+            "suggestion": "Quelles fonctionnalités aimeriez-vous que nous implémentions ?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Se connecter avec Face ID",
+                "face-recognition": "Se connecter avec la reconnaissance faciale",
+                "fingerprint": "Se connecter avec la reconnaissance d'empreintes digitales",
+                "iris": "Se connecter avec la reconnaissance de l'iris",
+                "touch-id": "Se connecter avec Touch ID"
+            },
+            "current-password": "Mot de passe incorrect",
+            "description": "Vous devez expliquer en quoi consiste la fonctionnalité que vous souhaitez que nous implémentions",
+            "forgot-password": "Cet e-mail n'est pas enregistré",
+            "invalid-credentials": "E-mail ou mot de passe incorrect",
+            "lock-code": "Code incorrect",
+            "logout": "Une erreur s'est produite. Vérifiez votre connexion ou réessayez ultérieurement",
+            "recover-password": "Code non valide",
+            "required": {
+                "confirm-password": "Vous devez confirmer le mot de passe",
+                "current-password": "Le mot de passe actuel est requis",
+                "email": "L'e-mail est requis",
+                "full-name": "Le nom complet est requis",
+                "password": "Le mot de passe est requis"
+            },
+            "same-password": "Le mot de passe ne peut pas être identique à l'ancien",
+            "title": "Le titre est requis",
+            "unique-email": "Cet e-mail existe déjà",
+            "valid": {
+                "confirm-password": "Les mots de passe ne correspondent pas",
+                "email": "Entrez une adresse e-mail valide",
+                "name": "Entrez le nom et le prénom"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Reconnaissance faciale",
+        "fingerprint": "Empreinte digitale",
+        "forgot-password": "Mot de passe oublié ?",
+        "full-name": "Nom complet",
+        "ip-address": "Adresse IP",
+        "logged-out": "Déconnecté",
+        "login": "Se connecter",
+        "login-biometric": "Se connecter avec vos données biométriques",
+        "login-register": "Inscrivez-vous ou connectez-vous à votre compte",
+        "login-social": "Ou connectez-vous avec",
+        "logout-device": "Déconnexion de l'appareil",
+        "make-block": "Bloquer",
+        "new-password": "Nouveau mot de passe",
+        "ok": "OK",
+        "password": "Mot de passe",
+        "permission": {
+            "description": {
+                "face-id": "Voulez-vous vous connecter avec Face ID la prochaine fois ?"
+            },
+            "title": {
+                "face-id": "Activer Face ID"
+            }
+        },
+        "recover-password": "Réinitialiser le mot de passe",
+        "register": "S'inscrire",
+        "register-social": "Ou inscrivez-vous avec",
+        "see-less": "Voir moins",
+        "see-more": "Voir plus",
+        "send": "Envoyer",
+        "session-expired": "Session expirée",
+        "session-expired-message": "La session a expiré. Connectez-vous à nouveau",
+        "skip": "Passer",
+        "success": {
+            "change-password": "Le mot de passe a été changé avec succès",
+            "forgot-password": "Un code a été envoyé à votre adresse e-mail pour réinitialiser le mot de passe",
+            "lock-code": "L'appareil {{modelName}} a été bloqué avec succès",
+            "recover-password": "Le mot de passe a été réinitialisé avec succès",
+            "suggestion": "Votre suggestion a été ajoutée avec succès. Nous la prendrons en compte pour les futures mises à jour"
+        },
+        "suggestion-portal": "Portail de suggestions",
+        "suggestion-portal-description": "Dites-nous quelles fonctionnalités vous aimeriez que nous implémentions",
+        "title": "Titre",
+        "touch-id": "Touch ID",
+        "vote": "Voter",
+        "voted": "Voté",
+        "votes": "Votes",
+        "welcome": "Bienvenue !"
+    }
+}

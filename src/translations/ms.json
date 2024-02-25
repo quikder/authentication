@@ -1,0 +1,100 @@
+{
+    "auth": {
+        "activate": "Aktifkan",
+        "active": "Aktif",
+        "add": "Tambah",
+        "block": "Halang {{modelName}}",
+        "block-info": "Sebuah kod telah dihantar ke emel anda, sila masukkan kod untuk menghalang peranti",
+        "blocked": "Dihalang",
+        "brand": "Jenama",
+        "change-password": "Tukar Kata Laluan",
+        "code": "Kod",
+        "confirm-password": "Sahkan Kata Laluan",
+        "current-password": "Kata Laluan Semasa",
+        "description": "Penerangan",
+        "device-model": "Model Peranti",
+        "email": "Emel",
+        "empty": {
+            "suggestion": "Fungsi apa yang anda ingin kita implementasikan?"
+        },
+        "error": {
+            "biometric": {
+                "face-id": "Log masuk dengan Face ID",
+                "face-recognition": "Log masuk dengan pengenalan wajah",
+                "fingerprint": "Log masuk dengan pengenalan cap jari",
+                "iris": "Log masuk dengan pengenalan iris",
+                "touch-id": "Log masuk dengan Touch ID"
+            },
+            "current-password": "Kata laluan tidak sah",
+            "description": "Anda perlu menjelaskan apakah fungsi yang anda ingin kita implementasikan",
+            "forgot-password": "Emel ini tidak berdaftar",
+            "invalid-credentials": "Emel atau kata laluan tidak sah",
+            "lock-code": "Kod tidak sah",
+            "logout": "Ralat berlaku, sila periksa sambungan anda atau cuba lagi nanti",
+            "recover-password": "Kod tidak sah",
+            "required": {
+                "confirm-password": "Anda perlu mengesahkan kata laluan",
+                "current-password": "Kata laluan semasa diperlukan",
+                "email": "Emel diperlukan",
+                "full-name": "Nama penuh diperlukan",
+                "password": "Kata laluan diperlukan"
+            },
+            "same-password": "Kata laluan tidak boleh sama dengan yang sebelumnya",
+            "title": "Tajuk diperlukan",
+            "unique-email": "Emel ini sudah wujud",
+            "valid": {
+                "confirm-password": "Kata laluan tidak sepadan",
+                "email": "Sila masukkan emel yang sah",
+                "name": "Sila masukkan nama dan nama belakang"
+            }
+        },
+        "face-id": "Face ID",
+        "facial-recognition": "Pengenalan Wajah",
+        "fingerprint": "Pengenalan Cap Jari",
+        "forgot-password": "Lupa kata laluan?",
+        "full-name": "Nama Penuh",
+        "ip-address": "Alamat IP",
+        "logged-out": "Log keluar",
+        "login": "Log Masuk",
+        "login-biometric": "Log masuk dengan data biometrik anda",
+        "login-register": "Daftar atau log masuk ke akaun anda",
+        "login-social": "Atau log masuk dengan",
+        "logout-device": "Log keluar dari peranti",
+        "make-block": "Halang",
+        "new-password": "Kata Laluan Baharu",
+        "ok": "OK",
+        "password": "Kata Laluan",
+        "permission": {
+            "description": {
+                "face-id": "Adakah anda ingin log masuk dengan Face ID pada masa akan datang?"
+            },
+            "title": {
+                "face-id": "Aktifkan Face ID"
+            }
+        },
+        "recover-password": "Pulihkan Kata Laluan",
+        "register": "Daftar",
+        "register-social": "Atau daftar dengan",
+        "see-less": "Lihat Kurang",
+        "see-more": "Lihat Lebih",
+        "send": "Hantar",
+        "session-expired": "Sesi Tamat",
+        "session-expired-message": "Sesi tamat, log masuk semula",
+        "skip": "Langkau",
+        "success": {
+            "change-password": "Kata laluan berjaya ditukar",
+            "forgot-password": "Kod telah dihantar ke emel anda untuk menetapkan semula kata laluan",
+            "lock-code": "Peranti {{modelName}} telah berjaya dihalang",
+            "recover-password": "Kata laluan berjaya dipulihkan",
+            "suggestion": "Cadangan anda telah ditambah dengan berjaya, kami akan mempertimbangkan untuk kemas kini masa depan"
+        },
+        "suggestion-portal": "Portal Cadangan",
+        "suggestion-portal-description": "Beritahu kami fungsi apa yang anda ingin kita implementasikan",
+        "title": "Tajuk",
+        "touch-id": "Touch ID",
+        "vote": "Undi",
+        "voted": "Sudah Diundi",
+        "votes": "Undian",
+        "welcome": "Selamat Datang!"
+    }
+}
