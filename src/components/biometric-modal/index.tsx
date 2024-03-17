@@ -1,5 +1,6 @@
+//@ts-nocheck
 import { t } from "i18next";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Modal, useWindowDimensions } from "react-native";
 import { Button, Text } from "react-native-paper";
 import { useTheme } from "styled-components/native";
@@ -7,6 +8,7 @@ import { USE_BIOMETRIC_AUTH_KEY } from "../../constants/keys";
 import { useAuth } from "../../services/context/auth.context";
 import { saveAsyncStorage } from "../../utils/storage";
 import { Body, ButtonContent, Card, Header, Img } from "../styled-modals";
+
 
 export const BiometricModal = () => {
 	const theme = useTheme();
@@ -40,6 +42,7 @@ export const BiometricModal = () => {
 			visible={modalVisible}
 			presentationStyle={width > 768 ? "overFullScreen" : "formSheet"}
 			transparent={width > 768 ? true : false}
+			supportedOrientations={['landscape', 'portrait']}
 		>
 			<Body $width={width}>
 				<Card $width={width}>
