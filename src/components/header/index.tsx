@@ -8,9 +8,10 @@ import { Border, Content, ContentLogo, Logo } from "./styled";
 interface HeaderProps {
 	value: number;
 	setValue: React.Dispatch<React.SetStateAction<number>>;
+	useRegister: boolean
 }
 
-export const Header: React.FC<HeaderProps> = ({ value, setValue }) => {
+export const Header: React.FC<HeaderProps> = ({ value, setValue, useRegister = true }) => {
 	const theme = useTheme();
 	return (
 		<Content>
@@ -22,22 +23,28 @@ export const Header: React.FC<HeaderProps> = ({ value, setValue }) => {
 				{t("auth.welcome")}
 			</Text>
 
-			<Text
-				variant="labelMedium"
-				style={{ textAlign: "center", color: theme.colors.primaryContainer }}
-			>
-				{t("auth.login-register")}
-			</Text>
-			<Border>
-				<SegmentControl
-					segments={[t("auth.login"), t("auth.register")]}
-					onChange={(index: number) => {
-						setValue(index);
-					}}
-					value={value}
-					style={{ backgroundColor: "transparent" }}
-				/>
-			</Border>
+			<>
+				{useRegister && (
+					<>
+						<Text
+							variant="labelMedium"
+							style={{ textAlign: "center", color: theme.colors.primaryContainer }}
+						>
+							{t("auth.login-register")}
+						</Text>
+						<Border>
+							<SegmentControl
+								segments={[t("auth.login"), t("auth.register")]}
+								onChange={(index: number) => {
+									setValue(index);
+								}}
+								value={value}
+								style={{ backgroundColor: "transparent" }}
+							/>
+						</Border>
+					</>
+				)}
+			</>
 		</Content>
 	);
 };
